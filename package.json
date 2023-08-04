@@ -1,6 +1,6 @@
 {
   "name": "shiftid-nextjs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,10 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "eslint": "8.46.0",
-    "eslint-config-next": "13.4.12",
-    "next": "13.4.12",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "bootstrap": "^5.3.1",
+    "bootstrap-icons": "^1.10.5",
+    "next": "^13.4.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.64.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-config-next": "^13.4.12"
   }
 }

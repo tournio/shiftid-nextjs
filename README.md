@@ -1,4 +1,4 @@
-# Website for the Seniors Handicap Invitational Tournament in DFW (SHIFTID)
+# Website for the Seniors Handicap Invitational Fall Tournament in DFW (SHIFTID)
 ## An [IGBO](http://www.igbo.org)-affiliated tournament
 
 It's built as a static website using the [Next.js](http://nextjs.org) framework and was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
