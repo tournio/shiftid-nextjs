@@ -1,0 +1,9 @@
+// Miscellaneous mappings
+:root,
+[data-bs-theme="light"] {
+}
+
+// dark colors!
+@include color-mode(dark, true) {
+  color-scheme: dark;
+}
