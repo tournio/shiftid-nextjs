@@ -14,7 +14,10 @@ const Hero = () => {
 
         <h2 className={`display-2 ${classes.Subtitle}`}>
           An{' '}
-          <span className={'fw-bold'}>IGBO</span>
+          <a className={'fw-bold'}
+             href={`http://www.igbo.org`}>
+            IGBO
+          </a>
           {' '}bowling tournament
         </h2>
 

@@ -1,25 +1,26 @@
 .Layout {
-  .Footer {
+}
 
-    .Image {
+.Footer {
 
-      //opacity: 0.85;
-      //background-color: var(--shiftid-gray-200);
+  .Image {
 
-      [data-bs-theme='dark'] & {
-        //opacity: 0.75;
-        //background-color: var(--shiftid-gray-500);
-      }
+    //opacity: 0.85;
+    //background-color: var(--shiftid-gray-200);
+
+    [data-bs-theme='dark'] & {
+      //opacity: 0.75;
+      //background-color: var(--shiftid-gray-500);
+    }
+  }
+
+  p {
+    margin: 0.5rem 0;
+
+    a {
+      //color: var(--shiftid-body-color);
+      //border-left: 1px solid var(--shiftid-secondary-text-emphasis);
     }
 
-    p {
-      margin: 0.5rem 0;
-
-      a {
-        //color: var(--shiftid-body-color);
-        //border-left: 1px solid var(--shiftid-secondary-text-emphasis);
-      }
-
-    }
   }
 }
