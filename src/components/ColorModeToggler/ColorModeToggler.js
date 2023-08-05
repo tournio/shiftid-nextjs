@@ -1,8 +1,8 @@
-import classes from './Component.module.scss';
+import classes from './ColorModeToggler.module.scss';
 import {useThemeContext} from "@/js/ThemeContext";
 import {useClientReady} from "@/js/misc";
 
-const Component = (props) => {
+const ColorModeToggler = (props) => {
   const themeLinkContents = {
     auto: {
       iconClass: 'bi bi-circle-half',
@@ -61,4 +61,4 @@ const Component = (props) => {
   );
 }
 
-export default Component;
+export default ColorModeToggler;

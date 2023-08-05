@@ -1,10 +1,10 @@
 .ColorModeToggler {
   button {
     [data-bs-theme='light'] & {
-      color: var(--shiftid-gray-200);
+      //color: var(--shiftid-gray-200);
     }
     [data-bs-theme='dark'] & {
-      color: var(--shiftid-body-color);
+      //color: var(--shiftid-body-color);
     }
   }
   .ThemeItem {
