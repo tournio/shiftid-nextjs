@@ -1,7 +1,6 @@
 .Location {
   .Logo {
-    //background-color: var(--shiftid-gray-400);
-    padding: 0.75rem 0;
+    padding: 0.75rem 0 1.5rem;
 
     .Light {
       [data-bs-theme='dark'] & {
@@ -14,11 +13,14 @@
       }
     }
   }
+  .Content {
+    text-align: center;
+  }
   .Map {
     [data-bs-theme='dark'] & {
       filter: brightness(65%);
     }
 
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 }

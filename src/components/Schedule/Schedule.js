@@ -1,4 +1,4 @@
-import styles from './Schedule.module.scss';
+import classes from './Schedule.module.scss';
 
 const Schedule = () => {
 
@@ -63,18 +63,18 @@ const Schedule = () => {
   ]
 
   return (
-    <section className={styles.Schedule} id={'section-schedule'}>
+    <section className={classes.Schedule} id={'section-schedule'}>
       <h3 className={`section-heading`}>
         Schedule of Events
       </h3>
-      <p className={`${styles.Disclaimer}`}>
+      <p className={`${classes.Disclaimer}`}>
         (All times subject to change)
       </p>
 
       {days.map((day, i) => (
         <div key={`day_${i}`}
-             className={`row g-0 ${styles.DayOfEvents}`}>
-          <div className={`${styles.Date} col-md-4`}>
+             className={`row g-0 ${classes.DayOfEvents}`}>
+          <div className={`${classes.Date} col-md-4`}>
             <h4>
               {day.date}
             </h4>
@@ -83,8 +83,8 @@ const Schedule = () => {
           <div className={`col-md-8`}>
             {day.events.map((e, j) => (
               <div key={`event_${j}`}>
-                <div className={`${styles.Event} d-flex justify-content-between`}>
-                  <div className={`${styles.Detail}`}>
+                <div className={`${classes.Event} d-flex justify-content-between`}>
+                  <div className={`${classes.Detail}`}>
                     <h5>
                       {e.name}
                     </h5>
@@ -94,7 +94,7 @@ const Schedule = () => {
                       </p>
                     )}
                   </div>
-                  <div className={`${styles.Time}`}>
+                  <div className={`${classes.Time}`}>
                     <h5>
                       {e.time}
                     </h5>
@@ -109,8 +109,8 @@ const Schedule = () => {
         </div>
       ))}
 
-      <div className={`section-image-background ${styles.BackgroundImage}`}></div>
-      <div className={`section-background-shade ${styles.BackgroundShade}`}></div>
+      <div className={`section-image-background ${classes.BackgroundImage}`}></div>
+      <div className={`section-background-shade ${classes.BackgroundShade}`}></div>
     </section>
   )
 }

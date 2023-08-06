@@ -7,16 +7,16 @@ const Local = () => {
       <h3 className={'section-heading'}>
         IGBO Local
       </h3>
-      <h5 className={`text-start text-sm-center`}>
+      <p className={`text-start text-sm-center ${classes.Text}`}>
         IGBO is well-represented across the DFW Metroplex!
-      </h5>
+      </p>
 
-      <div className={`row justify-content-center mb-3`}>
-        <div className={'card col-12 col-sm-6 col-lg-4'}>
+      <div className={`row justify-content-center ${classes.OrganizationList}`}>
+        <div className={'card col-12 col-sm-6 col-lg-4 mb-3'}>
           <div className={'card-header'}>
-            <p className={'lead mb-0'}>
+            <h5 className={``}>
               Leagues
-            </p>
+            </h5>
           </div>
           <div className={`list-group list-group-flush`}>
             <li className={`list-group-item`}>
@@ -48,9 +48,9 @@ const Local = () => {
 
         <div className={'card col-12 col-sm-6 col-lg-4'}>
           <div className={'card-header'}>
-            <p className={'lead mb-0'}>
+            <h5 className={``}>
               Tournaments
-            </p>
+            </h5>
           </div>
           <div className={`list-group list-group-flush`}>
             <li className={`list-group-item`}>

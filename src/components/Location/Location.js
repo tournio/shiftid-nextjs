@@ -26,7 +26,7 @@ const Location = () => {
             />
           </a>
         </div>
-        <div className={'col'}>
+        <div className={`col-12 ${classes.Content}`}>
           <h4 className={``}>
             <a href={'https://www.bowlero.com/location/bowlero-garland'}>
               Bowlero Garland

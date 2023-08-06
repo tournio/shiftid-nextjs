@@ -5,5 +5,19 @@ body {
   overflow-x: hidden;
   position: relative;
 
-  // ...
+  section {
+    margin: 0 0.25rem;
+
+    .section-heading {
+      margin-left: -0.25rem;
+      margin-right: -0.25rem;
+      padding-top: 0.75rem;
+      padding-bottom: 1rem;
+      padding-left: 1rem;
+
+      color: var(--shiftid-section-heading-color);
+      background-color: var(--shiftid-section-heading-bg-color);
+
+    }
+  }
 }

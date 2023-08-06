@@ -1,14 +1,14 @@
 .Schedule {
   position: relative;
 
-  padding-bottom: 2rem;
-
   .Disclaimer {
     text-align: center;
     font-size: 90%;
   }
 
   .DayOfEvents {
+    margin-bottom: 1rem;
+
     @media(min-width: 768px) {
       border-top: 1px solid;
       padding-top: 0.5rem;
@@ -19,46 +19,48 @@
         //border-color: var(--shiftid-tertiary-color);
       }
     }
-  }
 
-  .Date {
-    text-align: left;
+    .Date {
+      text-align: left;
 
-    h4 {
-      padding: 0.5rem 1rem;
-      margin: 0 -1rem;
-      //background-color: rgba(var(--shiftid-white-rgb), 0.25);
-
-      @media (min-width: 768px) {
-        //background-color: transparent;
-      }
-
-      [data-bs-theme='dark'] & {
-        //background-color: rgba(var(--shiftid-black-rgb), 0.75);
+      h4 {
+        padding: 0.5rem 1rem;
+        margin: 0 -1rem;
+        //background-color: rgba(var(--shiftid-white-rgb), 0.25);
+        background-color: rgba(var(--shiftid-section-subheading-bg-color-rgb), 0.75);
 
         @media (min-width: 768px) {
           //background-color: transparent;
         }
+
+        [data-bs-theme='dark'] & {
+          //background-color: rgba(var(--shiftid-black-rgb), 0.75);
+
+          @media (min-width: 768px) {
+            //background-color: transparent;
+          }
+        }
+
       }
-
     }
-  }
 
-  .Event {
-    margin-top: 0.5rem;
+    .Event {
+      margin-top: 0.5rem;
 
-    .Detail {
-      text-align: left;
-
-      p {
+      .Detail {
         text-align: left;
-        margin-bottom: 0.5rem;
+
+        p {
+          text-align: left;
+          margin-bottom: 0.5rem;
+        }
+      }
+      .Time {
+        text-align: right;
       }
     }
-    .Time {
-      text-align: right;
-    }
   }
+
 
   .BackgroundImage {
     //background-image: url('../../images/bg/transamerica-600w.jpg');
