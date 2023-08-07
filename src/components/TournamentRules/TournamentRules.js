@@ -106,14 +106,18 @@ const scratchMastersRules = `
   return (
     <section className={classes.TournamentRules}>
 
-      <Link href={'/'}
-            title={'Back to main page'}
-            className={``}>
-        <Image src={lettersLogo}
-               alt={'SHIFTID logo'}
-               className={`img-fluid ${classes.Image}`}
-        />
-      </Link>
+      <div className={`row d-flex justify-content-center`}>
+        <div className={`col-12 col-md-8`}>
+          <Link href={'/'}
+                title={'Back to main page'}
+                className={``}>
+            <Image src={lettersLogo}
+                   alt={'SHIFTID logo'}
+                   className={`img-fluid ${classes.Image}`}
+            />
+          </Link>
+        </div>
+      </div>
 
       <h3 className={`section-heading`}>
         General Rules

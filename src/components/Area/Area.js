@@ -15,14 +15,18 @@ const Area = ({full = true}) => {
   return (
     <section className={classes.Area} id={'dallas'}>
       {full && (
-        <Link href={'/'}
-              title={'Back to main page'}
-              className={``}>
-          <Image src={lettersLogo}
-                 alt={'SHIFTID logo'}
-                 className={`img-fluid ${classes.LogoImage}`}
-          />
-        </Link>
+        <div className={`row d-flex justify-content-center`}>
+          <div className={`col-12 col-md-8`}>
+            <Link href={'/'}
+                  title={'Back to main page'}
+                  className={``}>
+              <Image src={lettersLogo}
+                     alt={'SHIFTID logo'}
+                     className={`img-fluid ${classes.LogoImage}`}
+              />
+            </Link>
+          </div>
+        </div>
       )}
       <h3 className={`section-heading`}>
         Dallas / Fort Worth

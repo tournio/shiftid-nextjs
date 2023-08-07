@@ -12,8 +12,8 @@ const Location = () => {
       <h3 className={`section-heading`}>
         Bowling Center
       </h3>
-      <div className={'row mb-3 d-flex justify-content-center'}>
-        <div className={`col-8 ${classes.Logo}`}>
+      <div className={'row mb-3 d-flex justify-content-center align-items-md-center'}>
+        <div className={`col-8 col-md-4 ${classes.Logo}`}>
           <a href={'https://www.bowlero.com/location/bowlero-garland'}
              target={'_blank'}>
             <Image src={bowleroBlack}
@@ -26,7 +26,7 @@ const Location = () => {
             />
           </a>
         </div>
-        <div className={`col-12 ${classes.Content}`}>
+        <div className={`col-12 col-md-4 ${classes.Content}`}>
           <h4 className={``}>
             <a href={'https://www.bowlero.com/location/bowlero-garland'}>
               Bowlero Garland
