@@ -1,6 +1,4 @@
 .Schedule {
-  position: relative;
-
   .Disclaimer {
     text-align: center;
     font-size: 90%;
@@ -25,8 +23,7 @@
 
       h4 {
         padding: 0.5rem 1rem;
-        margin: 0 -1rem;
-        //background-color: rgba(var(--shiftid-white-rgb), 0.25);
+        margin: 0 -0.25rem;
         background-color: rgba(var(--shiftid-section-subheading-bg-color-rgb), 0.75);
 
         @media (min-width: 768px) {
@@ -45,7 +42,7 @@
     }
 
     .Event {
-      margin-top: 0.5rem;
+      margin: 0.5rem 0.75rem;
 
       .Detail {
         text-align: left;
