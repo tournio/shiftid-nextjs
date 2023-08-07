@@ -1,5 +1,10 @@
+:root {
+  .card {
+    --#{$prefix}card-border-width: 0;
+  }
+}
+
 // Miscellaneous mappings
-:root,
 [data-bs-theme="light"] {
   --#{$prefix}body-bg: #{tint-color($cream, 70%)};
 

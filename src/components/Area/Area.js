@@ -5,6 +5,7 @@ import sportsBalls from '@/images/dfw/sports-balls.jpg';
 import texMex from '@/images/dfw/tex-mex.jpg';
 import sunshine from '@/images/dfw/sun-rays.jpg';
 import classes from './Area.module.scss';
+import lettersLogo from "@/images/shiftid-logo-just-letters.jpg";
 
 const Area = ({full = true}) => {
   // full determines whether we show a summary or the whole shebang
@@ -13,8 +14,17 @@ const Area = ({full = true}) => {
 
   return (
     <section className={classes.Area} id={'dallas'}>
-      <h3 className={`section-heading mt-3`}>
-        Dallas, Texas
+      <Link href={'/'}
+            title={'Back to main page'}
+            className={``}>
+        <Image src={lettersLogo}
+               alt={'SHIFTID logo'}
+               className={`img-fluid ${classes.LogoImage}`}
+        />
+      </Link>
+
+      <h3 className={`section-heading`}>
+        Dallas / Fort Worth
       </h3>
 
       <div className={classes.JumboImage}>
@@ -29,10 +39,18 @@ const Area = ({full = true}) => {
         </a>
       </div>
 
-      <p className={'mt-3'}>
-        Home to the Texas State Fair, the Perot Museum of Nature and Science, and more professional sports teams than you can shake a hockey stick at, Dallas&mdash;not just Dallas itself, but the whole Dallas-Ft. Worth
-        metroplex&mdash;has something to offer for everyone.
-      </p>
+      {/*<p className={'mt-3'}>*/}
+      {/*  Home to the Texas State Fair, the world&apos;s largest indoor rodeo, and more professional sports teams than you can shake a hockey stick at, Dallas&mdash;not just Dallas itself, but the whole Dallas-Ft. Worth*/}
+      {/*  metroplex&mdash;has something to offer for everyone.*/}
+      {/*</p>*/}
+      <div className={`card ${classes.Thing}`}>
+        <div className={`card-body ${classes.CardBody}`}>
+          <p className={``}>
+            Home to the Texas State Fair, the world&apos;s largest indoor rodeo, and more professional sports teams than you can shake a hockey stick at, Dallas&mdash;not just Dallas itself, but the whole Dallas-Ft. Worth
+            metroplex&mdash;has something to offer for everyone.
+          </p>
+        </div>
+      </div>
 
       {!full && (
         <p className={classes.MoreLink}>
@@ -92,42 +110,6 @@ const Area = ({full = true}) => {
               </div>
             </div>
           </div>
-
-          {/*<div className={`${classes.Thing} card col-12 col-sm-6 col-lg-4`}>*/}
-          {/*  <div className={`${classes.Image}`}>*/}
-          {/*    <Image src={bigTex}*/}
-          {/*           alt={'Big Tex'}*/}
-          {/*           className={`${classes.Img}`}*/}
-          {/*           sizes={'(max-width: 575px) 95vw, (min-width: 768px) 50vw, (min-width: 992px) 33vw'}*/}
-          {/*    />*/}
-          {/*  </div>*/}
-          {/*  <div className={`${classes.Credit}`}>*/}
-          {/*    Image by{' '}*/}
-          {/*    <a href={'https://www.flickr.com/photos/steevithak/10197656524'}*/}
-          {/*       target={'_blank'}>*/}
-          {/*      Steve Rainwater*/}
-          {/*    </a>*/}
-          {/*  </div>*/}
-          {/*  <div className={`card-body ${classes.CardBody}`}>*/}
-          {/*    <div className={'card-title'}>*/}
-          {/*      <h4>*/}
-          {/*        The Texas State Fair*/}
-          {/*      </h4>*/}
-          {/*    </div>*/}
-          {/*    <p>*/}
-          {/*      There&apos;s no better place to find thrill rides, live concerts, butter sculptures, pig races, creative fried foods, and Texans of all stripes!*/}
-          {/*    </p>*/}
-          {/*    <p>*/}
-          {/*      The Fair runs September 29 - October 22.*/}
-          {/*    </p>*/}
-          {/*    <p>*/}
-          {/*      <a href={'https://bigtex.com/'}*/}
-          {/*         target={'_blank'}>*/}
-          {/*        Check it out*/}
-          {/*      </a>*/}
-          {/*    </p>*/}
-          {/*  </div>*/}
-          {/*</div>*/}
 
           <div className={`${classes.Thing} card col-12 col-sm-6 col-sm-6 col-lg-4`}>
             <div className={`${classes.Image}`}>

@@ -1,10 +1,12 @@
-import styles from './TournamentRules.module.scss';
 import ReactMarkdown from "react-markdown";
+import lettersLogo from '../../images/shiftid-logo-just-letters.jpg';
+
+import classes from './TournamentRules.module.scss';
+import Image from "next/image";
+import Link from "next/link";
 
 const TournamentRules = () => {
-  const markdownContent = `
-  ### General Rules
-  
+  const generalRules = `
 1.  The Seniors Handicap Invitational Fall Tournament In DFW (SHIFTID) is an IGBO affiliated tournament, open to anyone fifty (50) years of age and over by invitation only. SHIFTID will be a mixed handicap competition, certified by the USBC, and will be adhering to USBC rules. The tournament director reserves the right to reject any application.
 1.  All applicants are required to be USBC members pursuant to Rule 300c and must provide proof of membership (ID card or signed temporary card from league secretary). All applicants must also be a current member of IGBO, either as a member of an IGBO league or as an Associate member. Associate membership must be purchased prior to the tournament date.
 1.  Space for the tournament is limited to fifty (50) teams which may be composed of any combination of people. All participants will compete on an equal basis. Partial team entries will be accepted and accommodated, space available. Participants are only allowed to enter once for each event, and doubles partners must come from the same team.
@@ -19,11 +21,10 @@ const TournamentRules = () => {
 1.  Entrants do hereby give consent to being photographed and/or videoed during the tournament.
 1.  Any rule not covered herein, or in below section, will be covered by the relevant USBC tournament rule(s).
 1.  Submission of an entry to SHIFTID indicates the bowler has read, understands, and agrees to the rules set forth herein. Once tournament entries are received, no refunds are allowed unless the bowler withdraws under the provisions of Average Rule 3.
-1.  Bowling balls must be USBC approved and drilled, meeting all USBC requirements. Balls must have also been released and available to the public for purchase by the start of SHIFTID. Pre-release and test bowling equipment is not allowed.
+1.  Bowling balls must be USBC approved and drilled, meeting all USBC requirements. Balls must have also been released and available to the public for purchase by the start of SHIFTID. Pre-release and test bowling equipment is not allowed.`;
 
-  
-  ### Average Rules
-  
+
+  const averageRules = `
 1.  Entering Averages will be calculated in the following order:
     1.  Bowlers with both a 2022-/2023 USBC Standard Composite Average, minimum 21 games, and current one year rolling IGBO Tournament Average Database (TAD) will enter with a composite of these two averages.
     1.  Bowlers without both must use:
@@ -37,11 +38,9 @@ const TournamentRules = () => {
 1.  Tournament leadership has the authority to adjust the entering average or continued participation of any bowler. Average adjustments will be applied as set forth under USBC rules. A bowler unwilling to accept an average adjustment is entitled to a full refund. Requests for refunds must be in writing before the start of the tournament.
 1.  USBC rules regarding the bowlers' responsibility to verify the accuracy of his/her entering average, whether submitted by the bowler, the team captain, or other, apply. Failure to use proper average shall disqualify scores if the submitted average is lower than the actual average, thereby resulting in a lower classification or more handicap. Final event standings shall be based on the higher average if it is higher than the entering average.
 1.  USBC rule 319a(2) will not be waived.
-1.  Averages will be verified based on league data available from USBC at www.bowl.com.
+1.  Averages will be verified based on league data available from USBC at www.bowl.com.`;
 
-  
-  ### Registration and Fees
-  
+const registrationRules = `  
 1.  The tournament entry fee is $120.00 per bowler. That fee is broken down as follows:
 
     Prize Fund: $70.00
@@ -55,10 +54,9 @@ const TournamentRules = () => {
 1.  The Prize Fund will be returned 100%.
 1.  Tournament expenses include other costs of running the tournament.
 1.  ONLY online registrations will be accepted, and online payment of entry fees is available by credit card.
-1.  All entry fees, including cash payments, must be paid in full by the official entry deadline and will not be refunded except at the Tournament Director’s discretion.
-  
-  ### Optional Scratch Rules (Optional Event)
-  
+1.  All entry fees, including cash payments, must be paid in full by the official entry deadline and will not be refunded except at the Tournament Director’s discretion.`;
+
+const optionalScratchRules = `
 1.  The Optional Scratch event is available to all participants for an additional entry fee of $30.00. Optional Scratch entry fees may be paid at the time of tournament entry or during registration as long as the fee is paid before the first ball is rolled in competition.
 1.  The Optional Scratch qualifying scores will consist of the total scratch scores for the nine (9) games in the Singles, Doubles and Team events. Optional Scratch divisions are as follows:
 
@@ -72,11 +70,9 @@ const TournamentRules = () => {
 
     Division E: Averages 0-159
 
-1.  Prizes will be awarded in each division for the high scratch game, series, and all-events bowled by participants who have paid the Optional Scratch entry fee. The award ratio for the Optional Scratch will be at least 1:10 per division with 100% of monies collected paid to winners for each division. Ties for any event will be aggregated for the tied positions and divided equally by the number of ties for that placement.
+1.  Prizes will be awarded in each division for the high scratch game, series, and all-events bowled by participants who have paid the Optional Scratch entry fee. The award ratio for the Optional Scratch will be at least 1:10 per division with 100% of monies collected paid to winners for each division. Ties for any event will be aggregated for the tied positions and divided equally by the number of ties for that placement.`;
 
-  
-  ### Scratch Masters Rules (Optional Event)
-  
+const scratchMastersRules = `  
 1.  Scratch Masters is an optional event available to all participants for an additional entry fee based on the participant’s average division.
 1.  Divisions and Entry fees for this optional event is based on average divisions as follows:
 
@@ -108,13 +104,46 @@ const TournamentRules = () => {
 `;
 
   return (
-    <section className={styles.TournamentRules}>
+    <section className={classes.TournamentRules}>
+
+      <Link href={'/'}
+            title={'Back to main page'}
+            className={``}>
+        <Image src={lettersLogo}
+               alt={'SHIFTID logo'}
+               className={`img-fluid ${classes.Image}`}
+        />
+      </Link>
+
       <h3 className={`section-heading`}>
-        SHIFTID Rules
+        General Rules
       </h3>
 
-      <ReactMarkdown>{markdownContent}</ReactMarkdown>
+      <ReactMarkdown>{generalRules}</ReactMarkdown>
 
+      <h3 className={`section-heading`}>
+        Average Rules
+      </h3>
+
+      <ReactMarkdown>{averageRules}</ReactMarkdown>
+
+      <h3 className={`section-heading`}>
+        Registration and Fees
+      </h3>
+
+      <ReactMarkdown>{registrationRules}</ReactMarkdown>
+
+      <h3 className={`section-heading`}>
+        Optional Scratch Rules (Optional Event)
+      </h3>
+
+      <ReactMarkdown>{optionalScratchRules}</ReactMarkdown>
+
+      <h3 className={`section-heading`}>
+        Scratch Masters Rules (Optional Event)
+      </h3>
+
+      <ReactMarkdown>{scratchMastersRules}</ReactMarkdown>
     </section>
   );
 }
