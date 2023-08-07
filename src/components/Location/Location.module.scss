@@ -16,6 +16,11 @@
   }
   .Content {
     text-align: center;
+
+    @media (min-width: 768px) {
+      padding-left: 2rem;
+      text-align: left;
+    }
   }
   .Map {
     [data-bs-theme='dark'] & {

@@ -14,13 +14,14 @@ const Footer = () => {
     <section className={classes.Footer}>
       <Sponsors/>
       <hr />
-      {/*<RegisterCTA/>*/}
-      {/*<hr/>*/}
-      {/*/>*/}
-      <Image src={lettersLogo}
-             alt={'SHIFTID logo'}
-             className={`img-fluid ${classes.Image}`}
-      />
+      <div className={`row d-flex justify-content-center`}>
+        <div className={`col-12 col-md-8`}>
+          <Image src={lettersLogo}
+                 alt={'SHIFTID logo'}
+                 className={`img-fluid ${classes.Image}`}
+          />
+        </div>
+      </div>
       <p className={'d-flex justify-content-center align-items-center ps-2'}>
       <span>
         &copy; 2023&nbsp;

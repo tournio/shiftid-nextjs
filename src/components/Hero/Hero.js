@@ -17,7 +17,7 @@ const Hero = () => {
 
         <div className={`row d-flex justify-content-center ${classes.Logo}`}>
           <Image src={stackedLogo}
-                 className={`col-11 img-fluid`}
+                 className={`col-11 col-md-8 col-lg-6 img-fluid`}
                  alt={'SHIFTID logo'}/>
         </div>
 
@@ -34,15 +34,15 @@ const Hero = () => {
           November 3-5, 2023
         </h3>
 
-        <div className={`d-flex justify-content-around ${classes.Links}`}>
-          <p>
+        <div className={`d-flex justify-content-around justify-content-md-center ${classes.Links}`}>
+          <p className={`mx-md-4`}>
             <Link href={`https://www.tourn.io/tournaments/shiftid-2023`}
                   className={`btn btn-primary`}
                   target={'_blank'}>
               Register
             </Link>
           </p>
-          <p>
+          <p className={`mx-md-4`}>
             <Link href={`/rules`}
                   className={`btn btn-primary`}>
               Rules
