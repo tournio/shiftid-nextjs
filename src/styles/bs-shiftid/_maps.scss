@@ -1,9 +1,45 @@
+:root {
+  .card {
+    --#{$prefix}card-border-width: 0;
+  }
+}
+
 // Miscellaneous mappings
-:root,
 [data-bs-theme="light"] {
+  --#{$prefix}body-bg: #{tint-color($cream, 70%)};
+
+  --#{$prefix}link-color: #{$muted-blue};
+  --#{$prefix}link-color-rgb: #{to-rgb($muted-blue)};
+
+  --#{$prefix}section-heading-bg-color: #{tint-color($teal, 80%)};
+
+  --#{$prefix}sponsor-logo-bg: transparent;
+
+  --#{$prefix}primary: #{$muted-blue};
+  --#{$prefix}primary-rgb: #{to-rgb($muted-blue)};
+
+  .btn-primary {
+    --#{$prefix}btn-color: white;
+  }
+
+  --#{$prefix}section-subheading-bg-color: #{$creamsicle};
+  --#{$prefix}section-subheading-bg-color-rgb: #{$creamsicle-rgb};
 }
 
 // dark colors!
 @include color-mode(dark, true) {
   color-scheme: dark;
+
+  --#{$prefix}body-color: #{shade-color($cream, 15%)};
+
+  --#{$prefix}section-heading-bg-color: #{$teal-dark};
+
+  --#{$prefix}section-subheading-bg-color: #{$creamsicle-dark};
+  --#{$prefix}section-subheading-bg-color-rgb: #{$creamsicle-dark-rgb};
+
+  --#{$prefix}sponsor-logo-bg: #{shade-color($cream, 15%)};
+
+  .btn-primary {
+    --#{$prefix}btn-color: #{shade-color($cream, 15%)};
+  }
 }

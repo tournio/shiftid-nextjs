@@ -1,6 +1,9 @@
-// import {useRouter} from "next/router";
+import Image from 'next/image';
 
-import ColorModeToggler from "../ColorModeToggler/Component";
+import ColorModeToggler from "../ColorModeToggler/ColorModeToggler";
+import Sponsors from "@/components/Sponsors/Sponsors";
+
+import lettersLogo from '../../images/shiftid-logo-just-letters.jpg';
 
 import classes from './Layout.module.scss';
 
@@ -8,37 +11,38 @@ const Footer = () => {
   // const router = useRouter();
 
   return (
-    <div className={classes.Footer}>
-      {/*<Sponsors/>*/}
-      {/*<hr />*/}
+    <section className={classes.Footer}>
+      <Sponsors/>
+      <hr />
       {/*<RegisterCTA/>*/}
       {/*<hr/>*/}
-      {/*<Image src={logo}*/}
-      {/*       alt={'DAMIT logo'}*/}
-      {/*       className={`img-fluid footer-image`}*/}
       {/*/>*/}
-      <p className={'d-flex justify-content-center'}>
-        <span>
-          &copy; 2023&nbsp;
-        </span>
+      <Image src={lettersLogo}
+             alt={'SHIFTID logo'}
+             className={`img-fluid ${classes.Image}`}
+      />
+      <p className={'d-flex justify-content-center align-items-center ps-2'}>
+      <span>
+        &copy; 2023&nbsp;
+      </span>
         <span className={'d-md-none pe-2'}>
-          SHIFTID
-        </span>
+        SHIFTID
+      </span>
         <span className={'d-none d-md-inline pe-2'}>
-          Seniors Handicap Invitational Fall Tournament in DFW
-        </span>
+        Seniors Handicap Invitational Fall Tournament in DFW
+      </span>
         <span className={`d-inline-block`}>
-          <a href={'https://www.facebook.com/profile.php?id=100090483829360'}
-             className={'ps-2'}>
-            <i className={'bi bi-facebook'} aria-hidden={true} />
-            <span className={'visually-hidden'}>
-              SHIFTID on Facebook
-            </span>
-          </a>
-        </span>
+        <a href={'https://www.facebook.com/profile.php?id=100090483829360'}
+           className={'ps-2'}>
+          <i className={'bi bi-facebook'} aria-hidden={true} />
+          <span className={'visually-hidden'}>
+            SHIFTID on Facebook
+          </span>
+        </a>
+      </span>
+        <ColorModeToggler className={`d-inline-block ms-auto`} />
       </p>
-      <ColorModeToggler className={`d-inline-block mt-1 mb-0 py-1`} />
-    </div>
+    </section>
   );
 }
 

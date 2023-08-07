@@ -1,29 +1,22 @@
-// import Hero from "@/components/hero";
-// import Location from "@/components/location";
-// import Schedule from "@/components/schedule";
-// import RegisterCTA from "@/components/register_cta";
-// import Contact from "@/components/contact";
-// import Dallas from "@/components/dallas";
-// import Sponsors from "@/components/sponsors";
-// import Local from "@/components/local";
-// import Raffle from "@/components/raffle";
-
 import Layout from "@/components/Layout/Layout";
+import Hero from "@/components/Hero/Hero";
+import Location from "@/components/Location/Location";
+import Schedule from "@/components/Schedule/Schedule";
+import Area from "@/components/Area/Area";
+import Local from "@/components/Local/Local";
+import Contact from "@/components/Contact/Contact";
+
 
 const Page = () => {
   return (
     <div>
-      <h1>
-        Here there be dragons!
-      </h1>
-      {/*<Hero/>*/}
-      {/*<Location/>*/}
-      {/*<Schedule/>*/}
-      {/*<Raffle/>*/}
-      {/*<Dallas full={false}/>*/}
-      {/*<Local/>*/}
+      <Hero/>
+      <Location/>
+      <Schedule/>
+      <Area full={false}/>
+      <Local/>
       {/*/!*<RegisterCTA/>*!/*/}
-      {/*<Contact/>*/}
+      <Contact/>
     </div>
   );
 }
