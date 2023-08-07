@@ -24,6 +24,10 @@
     }
     .Logo {
       margin-bottom: 2rem;
+
+      [data-bs-theme="dark"] & {
+        filter: brightness(80%);
+      }
     }
     .Subtitle {
       text-align: center;

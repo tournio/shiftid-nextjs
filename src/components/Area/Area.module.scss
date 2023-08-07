@@ -3,8 +3,7 @@
     margin: 1rem 0;
 
     [data-bs-theme='dark'] & {
-      //filter: brightness(75%);
-      //background-color: var(--shiftid-gray-500);
+      filter: brightness(80%);
     }
   }
 
@@ -29,10 +28,10 @@
       z-index: -1;
       background-color: transparent;
 
-      [data-bs-theme='dark'] & {
-        opacity: 0.1;
-        background-color: black;
-      }
+      //[data-bs-theme='dark'] & {
+      //  opacity: 0.1;
+      //  background-color: black;
+      //}
     }
 
     .DowntownDaytimeImage {

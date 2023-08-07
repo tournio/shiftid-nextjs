@@ -8,9 +8,8 @@
     //opacity: 0.85;
     //background-color: var(--shiftid-gray-200);
 
-    [data-bs-theme='dark'] & {
-      //opacity: 0.75;
-      //background-color: var(--shiftid-gray-500);
+    [data-bs-theme="dark"] & {
+      filter: brightness(80%);
     }
   }
 

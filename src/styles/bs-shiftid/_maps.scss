@@ -13,6 +13,8 @@
 
   --#{$prefix}section-heading-bg-color: #{tint-color($teal, 80%)};
 
+  --#{$prefix}sponsor-logo-bg: transparent;
+
   --#{$prefix}primary: #{$muted-blue};
   --#{$prefix}primary-rgb: #{to-rgb($muted-blue)};
 
@@ -27,4 +29,17 @@
 // dark colors!
 @include color-mode(dark, true) {
   color-scheme: dark;
+
+  --#{$prefix}body-color: #{shade-color($cream, 15%)};
+
+  --#{$prefix}section-heading-bg-color: #{$teal-dark};
+
+  --#{$prefix}section-subheading-bg-color: #{$creamsicle-dark};
+  --#{$prefix}section-subheading-bg-color-rgb: #{$creamsicle-dark-rgb};
+
+  --#{$prefix}sponsor-logo-bg: #{shade-color($cream, 15%)};
+
+  .btn-primary {
+    --#{$prefix}btn-color: #{shade-color($cream, 15%)};
+  }
 }

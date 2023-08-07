@@ -14,15 +14,16 @@ const Area = ({full = true}) => {
 
   return (
     <section className={classes.Area} id={'dallas'}>
-      <Link href={'/'}
-            title={'Back to main page'}
-            className={``}>
-        <Image src={lettersLogo}
-               alt={'SHIFTID logo'}
-               className={`img-fluid ${classes.LogoImage}`}
-        />
-      </Link>
-
+      {full && (
+        <Link href={'/'}
+              title={'Back to main page'}
+              className={``}>
+          <Image src={lettersLogo}
+                 alt={'SHIFTID logo'}
+                 className={`img-fluid ${classes.LogoImage}`}
+          />
+        </Link>
+      )}
       <h3 className={`section-heading`}>
         Dallas / Fort Worth
       </h3>
@@ -39,10 +40,6 @@ const Area = ({full = true}) => {
         </a>
       </div>
 
-      {/*<p className={'mt-3'}>*/}
-      {/*  Home to the Texas State Fair, the world&apos;s largest indoor rodeo, and more professional sports teams than you can shake a hockey stick at, Dallas&mdash;not just Dallas itself, but the whole Dallas-Ft. Worth*/}
-      {/*  metroplex&mdash;has something to offer for everyone.*/}
-      {/*</p>*/}
       <div className={`card ${classes.Thing}`}>
         <div className={`card-body ${classes.CardBody}`}>
           <p className={``}>

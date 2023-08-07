@@ -8,6 +8,7 @@
       }
     }
     .Dark {
+      filter: brightness(85%);
       [data-bs-theme='light'] & {
         display: none;
       }
@@ -18,7 +19,7 @@
   }
   .Map {
     [data-bs-theme='dark'] & {
-      filter: brightness(65%);
+      filter: brightness(80%);
     }
 
     margin-bottom: 2rem;

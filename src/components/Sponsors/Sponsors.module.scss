@@ -1,6 +1,8 @@
 .Sponsors {
   .Row {
-    //background-color: var(--shiftid-sponsor-logo-bg);
+    background-color: var(--shiftid-sponsor-logo-bg);
+    margin: 0 -0.25rem;
+
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 
@@ -15,6 +17,7 @@
       .AdjustedBrightness {
         [data-bs-theme='dark'] & {
           //filter: brightness(85%);
+
         }
       }
     }
