@@ -18,6 +18,14 @@
       height: 40vh;
       min-height: 400px;
     }
+    @media (min-width: 991px) {
+      height: 40vh;
+      min-height: 600px;
+    }
+    @media (min-width: 1200px) {
+      height: 350vh;
+      min-height: 700px;
+    }
 
     .DowntownDaytimeColor {
       position: absolute;

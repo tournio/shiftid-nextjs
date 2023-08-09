@@ -17,7 +17,7 @@ const Hero = () => {
 
         <div className={`row d-flex justify-content-center ${classes.Logo}`}>
           <Image src={stackedLogo}
-                 className={`col-11 col-md-8 col-lg-6 img-fluid`}
+                 className={`col-11 col-md-6 col-lg-5 img-fluid`}
                  alt={'SHIFTID logo'}/>
         </div>
 
