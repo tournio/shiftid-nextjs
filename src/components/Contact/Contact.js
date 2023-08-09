@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import scott from '@/images/contact/scott.jpg';
+import james from '@/images/contact/james.jpg';
 
 import classes from './Contact.module.scss';
 
@@ -14,9 +15,10 @@ const Contact = () => {
       <div className={`row justify-content-center`}>
         <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
           <div className={`card ${classes.Card}`}>
-            <div className={`card-body ${classes.Face}`}>
-              <i className={`bi-person-workspace ${classes.Placeholder}`}/>
-            </div>
+            <Image src={james}
+                   alt={'Photo of James'}
+                   className={`img-fluid card-img-top ${classes.Image}`}
+            />
             <div className={`card-body`}>
               <p className={`${classes.Name}`}>
                 <a href={'mailto:director@shiftid.org?subject=About%20SHIFTID'}>
@@ -51,7 +53,7 @@ const Contact = () => {
         <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
           <div className={`card ${classes.Card}`}>
             <Image src={scott}
-                   alt={'Cartoon image of Scott'}
+                   alt={'Photo of Scott'}
                    className={`img-fluid card-img-top ${classes.Image}`}
             />
             <div className={`card-body`}>
