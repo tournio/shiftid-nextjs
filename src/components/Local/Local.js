@@ -43,6 +43,12 @@ const Local = () => {
                 L.A.M.B.D.A.
               </a>
             </li>
+            <li className={`list-group-item`}>
+              <a href={'https://www.facebook.com/groups/DallasLGBTBowling'}
+                 target={'_blank'}>
+                Metroplex Bowling Association
+              </a>
+            </li>
           </div>
         </div>
 
