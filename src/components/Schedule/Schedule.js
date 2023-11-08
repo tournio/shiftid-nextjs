@@ -67,9 +67,10 @@ const Schedule = () => {
       <h3 className={`section-heading`}>
         Schedule of Events
       </h3>
-      <p className={`${classes.Disclaimer}`}>
-        (All times subject to change)
-      </p>
+
+      {/*<p className={`${classes.Disclaimer}`}>*/}
+      {/*  (All times subject to change)*/}
+      {/*</p>*/}
 
       {days.map((day, i) => (
         <div key={`day_${i}`}
