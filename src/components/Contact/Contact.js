@@ -5,6 +5,7 @@ import james from '@/images/contact/james.jpg';
 import joseph from '@/images/contact/joseph.jpg';
 
 import classes from './Contact.module.scss';
+import Link from "next/link";
 
 const Contact = () => {
 
@@ -71,6 +72,15 @@ const Contact = () => {
           </div>
         </div>
       </div>
+
+      <div className={`d-flex justify-content-around justify-content-md-center ${classes.Links}`}>
+        <p className={`mx-md-4`}>
+          <Link href={`/rules`}>
+            Rules
+          </Link>
+        </p>
+      </div>
+
     </section>
   );
 }
