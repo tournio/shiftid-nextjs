@@ -119,6 +119,8 @@ const scratchMastersRules = `
         </div>
       </div>
 
+      <p>(pending finalization for 2024)</p>
+
       <h3 className={`section-heading`}>
         General Rules
       </h3>

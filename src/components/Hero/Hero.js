@@ -33,7 +33,7 @@ const Hero = ({linkToFront = false}) => {
         </h2>
 
         <h3 className={`display-3 ${classes.Dates}`}>
-          November 3-5, 2023
+          July 5-7, 2024
         </h3>
       </div>
     </section>
