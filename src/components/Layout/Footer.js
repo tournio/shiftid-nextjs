@@ -22,27 +22,27 @@ const Footer = () => {
           />
         </div>
       </div>
-      <p className={'d-flex justify-content-center align-items-center ps-2'}>
-      <span>
-        &copy; 2023&nbsp;
-      </span>
-        <span className={'d-md-none pe-2'}>
-        SHIFTID
-      </span>
-        <span className={'d-none d-md-inline pe-2'}>
-        Seniors Handicap Invitational Fall Tournament in DFW
-      </span>
-        <span className={`d-inline-block`}>
-        <a href={'https://www.facebook.com/profile.php?id=100090483829360'}
-           className={'ps-2'}>
-          <i className={'bi bi-facebook'} aria-hidden={true} />
-          <span className={'visually-hidden'}>
-            SHIFTID on Facebook
+      <div className={'d-flex justify-content-center align-items-center ps-2'}>
+        <p>
+          <span>
+            &copy; 2023&nbsp;
           </span>
-        </a>
-      </span>
-        <ColorModeToggler className={`d-inline-block ms-auto`} />
-      </p>
+          <span className={'d-md-none pe-2'}>
+            SHIFTID
+          </span>
+          <span className={'d-none d-md-inline pe-2'}>
+            Seniors Handicap Invitational Fall Tournament in DFW
+          </span>
+          <a href={'https://www.facebook.com/profile.php?id=100090483829360'}
+             className={'ps-2'}>
+            <i className={'bi bi-facebook'} aria-hidden={true}/>
+            <span className={'visually-hidden'}>
+              SHIFTID on Facebook
+            </span>
+          </a>
+        </p>
+        <ColorModeToggler className={`d-inline-block ms-auto`}/>
+      </div>
     </section>
   );
 }
