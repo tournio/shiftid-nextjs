@@ -91,19 +91,19 @@ const Area = ({full = true}) => {
                     </h4>
                   </div>
                   <p>
-                    It doesn&apos;t get much more pleasant outside than Dallas in November. The summer heat and humidity have receded, and the coolness of autumn &ndash; such as it exists here &ndash; is just starting to tiptoe in.
+                    Early July marks the beginning of peak summer in DFW. The days are hot and can be muggy, but the evenings are almost always pleasant. And there just might be a boisterous thunderstorm on tap for the afternoon.
                   </p>
                   <p>
                     <span className={'d-block'}>
                       Average high:{' '}
                       <span className={classes.HighTemp}>
-                        72&deg;F (22&deg;C)
+                        91&deg;F (33&deg;C)
                       </span>
                     </span>
                     <span className={'d-block'}>
                       Average low:{' '}
                       <span className={classes.LowTemp}>
-                        52&deg;F (11&deg;C)
+                        73&deg;F (22&deg;C)
                       </span>
                     </span>
                   </p>
@@ -193,7 +193,15 @@ const Area = ({full = true}) => {
                 </h4>
               </div>
               <p>
-                October is prime season for football, baseball (well, the playoffs, at least), basketball, hockey, soccer (the <em>real</em> football!). No matter which team you root for or which sport you enjoy the most, you&apos;re sure to find a game or match to cheer or jeer at!
+                In July, we&apos;re all about baseball and soccer. Football players are getting into shape, while hockey and basketball teams are getting much-needed rest. While you&apos;re in town, catch a{' '}
+                <a href={'https://www.mlb.com/rangers'}>
+                  Rangers
+                </a>
+                {' '}game at Globe Life Field in Arlington, or an{' '}
+                <a href={'https://www.fcdallas.com/'}>
+                  FC Dallas
+                </a>
+                {' '}game at Toyota Stadium in Frisco.
               </p>
             </div>
           </div>
