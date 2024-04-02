@@ -25,13 +25,13 @@ const Footer = () => {
       <div className={'d-flex justify-content-center align-items-center ps-2'}>
         <p>
           <span>
-            &copy; 2023&nbsp;
+            &copy; 2023-2024&nbsp;
           </span>
           <span className={'d-md-none pe-2'}>
             SHIFTID
           </span>
           <span className={'d-none d-md-inline pe-2'}>
-            Seniors Handicap Invitational Fall Tournament in DFW
+            Seniors Handicap Invitational Family Tournament in DFW
           </span>
           <a href={'https://www.facebook.com/profile.php?id=100090483829360'}
              className={'ps-2'}>

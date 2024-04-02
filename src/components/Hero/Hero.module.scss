@@ -1,53 +1,55 @@
 .Hero {
   margin-top: 1rem;
 
-  .Content {
-    .Title {
-      text-align: center;
-      margin-bottom: 1rem;
-      font-size: calc(1.5rem + 4vw);
+  .Title {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: calc(1.5rem + 4vw);
 
-      font-family: "El Messiri",
-        system-ui,
-        -apple-system,
-        "Segoe UI",
-        Roboto,
-        "Helvetica Neue",
-        "Noto Sans",
-        "Liberation Sans",
-        Arial,
-        sans-serif,
-        "Apple Color Emoji",
-        "Segoe UI Emoji",
-        "Segoe UI Symbol",
-        "Noto Color Emoji";
+    font-family: "El Messiri",
+      system-ui,
+      -apple-system,
+      "Segoe UI",
+      Roboto,
+      "Helvetica Neue",
+      "Noto Sans",
+      "Liberation Sans",
+      Arial,
+      sans-serif,
+      "Apple Color Emoji",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
+      "Noto Color Emoji";
 
-      a {
-        text-decoration: none;
-        @media (min-width: 768px) {
-          text-decoration: underline;
-        }
+    a {
+      text-decoration: none;
+      @media (min-width: 768px) {
+        text-decoration: underline;
       }
     }
-    .Logo {
-      margin-bottom: 1rem;
+  }
+  .Logo {
+    margin-bottom: 1rem;
 
-      [data-bs-theme="dark"] & {
-        filter: brightness(80%);
-      }
+    [data-bs-theme="dark"] & {
+      filter: brightness(80%);
     }
-    .Subtitle {
-      text-align: center;
-      margin-bottom: 1.5rem;
-      font-size: calc(1.25rem + 2.8vw);
-      a {
-        text-decoration: none;
-      }
+  }
+  .Subtitle {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: calc(1.25rem + 2.8vw);
+    a {
+      text-decoration: none;
     }
-    .Dates {
-      margin-bottom: 2rem;
-      text-align: center;
-      font-size: calc(1rem + 2.4vw);
-    }
+  }
+  .Dates {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: calc(1rem + 2.4vw);
+  }
+  .Link {
+    text-align: center;
+    margin-bottom: 2rem;
   }
 }

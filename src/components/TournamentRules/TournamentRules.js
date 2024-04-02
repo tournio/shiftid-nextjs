@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const TournamentRules = () => {
   const generalRules = `
-1.  The Seniors Handicap Invitational Fall Tournament In DFW (SHIFTID) is an IGBO affiliated tournament, open to anyone fifty (50) years of age and over by invitation only. SHIFTID will be a mixed handicap competition, certified by the USBC, and will be adhering to USBC rules. The tournament director reserves the right to reject any application.
+1.  The Seniors Handicap Invitational Family Tournament In DFW (SHIFTID) is an IGBO affiliated tournament, open to anyone fifty (50) years of age and over by invitation only. SHIFTID will be a mixed handicap competition, certified by the USBC, and will be adhering to USBC rules. The tournament director reserves the right to reject any application.
 1.  All applicants are required to be USBC members pursuant to Rule 300c and must provide proof of membership (ID card or signed temporary card from league secretary). All applicants must also be a current member of IGBO, either as a member of an IGBO league or as an Associate member. Associate membership must be purchased prior to the tournament date.
 1.  Space for the tournament is limited to fifty (50) teams which may be composed of any combination of people. All participants will compete on an equal basis. Partial team entries will be accepted and accommodated, space available. Participants are only allowed to enter once for each event, and doubles partners must come from the same team.
 1.  SHIFTID bowled events shall consist of Singles, Doubles, and Team, all handicapped. The number of games bowled for each event shall be three (3) games. Individual All Events will be the combined total of all nine (9) games bowled.
@@ -40,7 +40,7 @@ const TournamentRules = () => {
 1.  USBC rule 319a(2) will not be waived.
 1.  Averages will be verified based on league data available from USBC at www.bowl.com.`;
 
-const registrationRules = `  
+const registrationRules = `
 1.  The tournament entry fee is $120.00 per bowler. That fee is broken down as follows:
 
     Prize Fund: $70.00

@@ -77,6 +77,9 @@ const Local = () => {
                 Dallas Area Masters Invitational Tournament (DAMIT)
               </a>
             </li>
+            <li className={`list-group-item`}>
+              SHIFTID (That&apos;s us!)
+            </li>
           </div>
         </div>
       </div>
