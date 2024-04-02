@@ -5,7 +5,6 @@ import james from '@/images/contact/james.jpg';
 import joseph from '@/images/contact/joseph.jpg';
 
 import classes from './Contact.module.scss';
-import Link from "next/link";
 
 const Contact = () => {
 
@@ -55,6 +54,46 @@ const Contact = () => {
 
         <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
           <div className={`card ${classes.Card}`}>
+            <i className={`bi bi-person display-1`} aria-hidden={true} />
+            {/*<Image src={joseph}*/}
+            {/*       alt={'Photo of Joseph'}*/}
+            {/*       className={`img-fluid card-img-top ${classes.Image}`}*/}
+            {/*/>*/}
+            <div className={`card-body`}>
+              <p className={`${classes.Name}`}>
+                <a href={'mailto:secretary@shiftid.org?subject=About%20SHIFTID'}>
+                  Aricia Grant
+                </a>
+              </p>
+              <p className={classes.Role}>
+                Secretary
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
+          <div className={`card ${classes.Card}`}>
+            <i className={`bi bi-person display-1`} aria-hidden={true}/>
+            {/*<Image src={joseph}*/}
+            {/*       alt={'Photo of Joseph'}*/}
+            {/*       className={`img-fluid card-img-top ${classes.Image}`}*/}
+            {/*/>*/}
+            <div className={`card-body`}>
+              <p className={`${classes.Name}`}>
+                <a href={'mailto:statistician@shiftid.org?subject=About%20SHIFTID'}>
+                  Mason Cox
+                </a>
+              </p>
+              <p className={classes.Role}>
+                Statistician
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
+          <div className={`card ${classes.Card}`}>
             <Image src={scott}
                    alt={'Photo of Scott'}
                    className={`img-fluid card-img-top ${classes.Image}`}
@@ -72,15 +111,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-
-      <div className={`d-flex justify-content-around justify-content-md-center ${classes.Links}`}>
-        <p className={`mx-md-4`}>
-          <Link href={`/rules`}>
-            Rules
-          </Link>
-        </p>
-      </div>
-
     </section>
   );
 }
