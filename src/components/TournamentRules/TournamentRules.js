@@ -41,15 +41,13 @@ const TournamentRules = () => {
 1.  Averages will be verified based on league data available from USBC at www.bowl.com.`;
 
 const registrationRules = `
-1.  The tournament entry fee is $120.00 per bowler. That fee is broken down as follows:
+1.  The tournament entry fee is $120 per bowler. That fee is broken down as follows:
 
-    Prize Fund: $70.00
+    Prize Fund: $70
     
-    Lineage: $31.50
+    Lineage: $36
     
-    Tournament Expenses: $17.75
-    
-    IGBO Donation: $0.75
+    Tournament Expenses: $14
 
 1.  The Prize Fund will be returned 100%.
 1.  Tournament expenses include other costs of running the tournament.
@@ -57,7 +55,7 @@ const registrationRules = `
 1.  All entry fees, including cash payments, must be paid in full by the official entry deadline and will not be refunded except at the Tournament Director’s discretion.`;
 
 const optionalScratchRules = `
-1.  The Optional Scratch event is available to all participants for an additional entry fee of $30.00. Optional Scratch entry fees may be paid at the time of tournament entry or during registration as long as the fee is paid before the first ball is rolled in competition.
+1.  The Optional Scratch event is available to all participants for an additional entry fee of $30. Optional Scratch entry fees may be paid at the time of tournament entry or during registration as long as the fee is paid before the first ball is rolled in competition.
 1.  The Optional Scratch qualifying scores will consist of the total scratch scores for the nine (9) games in the Singles, Doubles and Team events. Optional Scratch divisions are as follows:
 
     Division A: Averages 205-300
@@ -76,15 +74,15 @@ const scratchMastersRules = `
 1.  Scratch Masters is an optional event available to all participants for an additional entry fee based on the participant’s average division.
 1.  Divisions and Entry fees for this optional event is based on average divisions as follows:
 
-    Division A: Averages 205-300 &ndash; $55.00
+    Division A: Averages 205-300 &ndash; $55
     
-    Division B: Averages 190-204 &ndash; $50.00
+    Division B: Averages 190-204 &ndash; $50
     
-    Division C: Averages 175-189 &ndash; $40.00
+    Division C: Averages 175-189 &ndash; $40
     
-    Division D: Averages 160-174 &ndash; $30.00
+    Division D: Averages 160-174 &ndash; $30
     
-    Division E: Averages 0-159 &ndash; $25.00
+    Division E: Averages 0-159 &ndash; $25
     
 1.  All PBA, PWBA, or Team USA members will be classified in Division E, regardless of average.
 1.  Qualifying will be based on the bowler’s scratch scores (without handicap) bowled during the Singles, Doubles, and Team events. 
