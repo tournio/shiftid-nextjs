@@ -3,6 +3,8 @@ import Image from "next/image";
 import scott from '@/images/contact/scott.jpg';
 import james from '@/images/contact/james.jpg';
 import joseph from '@/images/contact/joseph.jpg';
+import aricia from '@/images/contact/aricia.jpg';
+import mason from '@/images/contact/mason.jpg';
 
 import classes from './Contact.module.scss';
 
@@ -54,31 +56,10 @@ const Contact = () => {
 
         <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
           <div className={`card ${classes.Card}`}>
-            <i className={`bi bi-person display-1`} aria-hidden={true} />
-            {/*<Image src={joseph}*/}
-            {/*       alt={'Photo of Joseph'}*/}
-            {/*       className={`img-fluid card-img-top ${classes.Image}`}*/}
-            {/*/>*/}
-            <div className={`card-body`}>
-              <p className={`${classes.Name}`}>
-                <a href={'mailto:secretary@shiftid.org?subject=About%20SHIFTID'}>
-                  Aricia Grant
-                </a>
-              </p>
-              <p className={classes.Role}>
-                Secretary
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
-          <div className={`card ${classes.Card}`}>
-            <i className={`bi bi-person display-1`} aria-hidden={true}/>
-            {/*<Image src={joseph}*/}
-            {/*       alt={'Photo of Joseph'}*/}
-            {/*       className={`img-fluid card-img-top ${classes.Image}`}*/}
-            {/*/>*/}
+            <Image src={mason}
+                   alt={'Photo of Mason'}
+                   className={`img-fluid card-img-top ${classes.Image}`}
+            />
             <div className={`card-body`}>
               <p className={`${classes.Name}`}>
                 <a href={'mailto:statistician@shiftid.org?subject=About%20SHIFTID'}>
@@ -86,7 +67,26 @@ const Contact = () => {
                 </a>
               </p>
               <p className={classes.Role}>
-                Statistician
+                Secretary / Statistician
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
+          <div className={`card ${classes.Card}`}>
+            <Image src={aricia}
+                   alt={'Photo of Aricia'}
+                   className={`img-fluid card-img-top ${classes.Image}`}
+            />
+            <div className={`card-body`}>
+              <p className={`${classes.Name}`}>
+                <a href={'mailto:agrant311@aol.com?subject=About%20SHIFTID'}>
+                  Aricia Grant
+                </a>
+              </p>
+              <p className={classes.Role}>
+                Committee Member
               </p>
             </div>
           </div>
