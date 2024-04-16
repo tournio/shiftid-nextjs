@@ -8,6 +8,7 @@ const Hero = ({linkToFront = false}) => {
 
   const text = `Seniors Handicap Invitational Family Tournament in DFW`;
   const header = !linkToFront ? text : <Link href={'/'}>{text}</Link>;
+  const REGISTER_URL = 'https://www.tourn.io/tournaments/shiftid-2024';
 
   return (
     <section className={`${classes.Hero}`}>
@@ -33,6 +34,14 @@ const Hero = ({linkToFront = false}) => {
       <h3 className={`display-3 ${classes.Dates}`}>
         July 5-7, 2024
       </h3>
+
+      <p className={`${classes.Link}`}>
+        <a href={REGISTER_URL}
+           className={`btn btn-primary`}
+        >
+          Register Now
+        </a>
+      </p>
 
       <p className={`mx-md-4 ${classes.Link}`}>
         <Link href={`/rules`}>

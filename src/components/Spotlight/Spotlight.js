@@ -1,8 +1,7 @@
 import classes from './Spotlight.module.scss';
-import Link from "next/link";
 
 const Spotlight = () => {
-  const REGISTER_URL = 'https://www.tourn.io/tournaments/shiftid-2024';
+  // const REGISTER_URL = 'https://www.tourn.io/tournaments/shiftid-2024';
 
   const prelimText = <p>
     SHIFTID is the newest member of the IGBO tournament community, showcasing the best of what the Dallas/Fort Worth area has to offer its LGBTQ+ citizens and visitors. Come bowl with us this July!
@@ -11,13 +10,13 @@ const Spotlight = () => {
   // const registrationOpen = (
   //   <>
   //     <p>
-  //       Registration is open.
+  //       Registration is open!
   //     </p>
   //     <p>
   //       <a href={REGISTER_URL}
-  //          className={``}
+  //          className={`btn btn-primary`}
   //       >
-  //         Register Online
+  //         Register Now
   //       </a>
   //     </p>
   //   </>
@@ -52,13 +51,13 @@ const Spotlight = () => {
         {/*{registrationOpen}*/}
         {/*{allDone}*/}
         {/*{results}*/}
-        <p>
-          Registration is opening soon!
-          {/*<Link href={REGISTER_URL}*/}
-          {/*      className={'btn btn-primary'}>*/}
-          {/*  Register*/}
-          {/*</Link>*/}
-        </p>
+        {/*<p>*/}
+        {/*  Registration is opening soon!*/}
+        {/*  /!*<Link href={REGISTER_URL}*!/*/}
+        {/*  /!*      className={'btn btn-primary'}>*!/*/}
+        {/*  /!*  Register*!/*/}
+        {/*  /!*</Link>*!/*/}
+        {/*</p>*/}
       </div>
     </section>
   );
