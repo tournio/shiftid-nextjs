@@ -9,7 +9,7 @@ const TournamentRules = () => {
   const generalRules = `
 1.  The Seniors Handicap Invitational Family Tournament In DFW (SHIFTID) is an IGBO affiliated tournament, open to anyone fifty (50) years of age and over by invitation only. SHIFTID will be a mixed handicap competition, certified by the USBC, and will be adhering to USBC rules. The tournament director reserves the right to reject any application.
 1.  All applicants are required to be USBC members pursuant to Rule 300c and must provide proof of membership (ID card or signed temporary card from league secretary). All applicants must also be a current member of IGBO, either as a member of an IGBO league or as an Associate member. Associate membership must be purchased prior to the tournament date.
-1.  Space for the tournament is limited to fifty (50) teams which may be composed of any combination of people. All participants will compete on an equal basis. Partial team entries will be accepted and accommodated, space available. Participants are only allowed to enter once for each event, and doubles partners must come from the same team.
+1.  Space for the tournament is limited to thirty-eight (38) teams which may be composed of any combination of people. All participants will compete on an equal basis. Partial team entries will be accepted and accommodated, space available. Participants are only allowed to enter once for each event, and doubles partners must come from the same team.
 1.  SHIFTID bowled events shall consist of Singles, Doubles, and Team, all handicapped. The number of games bowled for each event shall be three (3) games. Individual All Events will be the combined total of all nine (9) games bowled.
 1.  Tournament Director reserves the right to dismiss or disqualify any participant, at any time during the tournament. If a bowler is dismissed or disqualified, no refund will be issued.
 1.  All monetary awards for Singles, Doubles, Team, and Individual All Events are based on total pins bowled plus handicap and will be paid to the highest scores in each event on a minimum 1:10 payout ratio. All prize fees are returned at least 100%.
@@ -117,7 +117,7 @@ const scratchMastersRules = `
         </div>
       </div>
 
-      <p>(pending finalization for 2024)</p>
+      {/*<p>(pending finalization for 2024)</p>*/}
 
       <h3 className={`section-heading`}>
         General Rules
