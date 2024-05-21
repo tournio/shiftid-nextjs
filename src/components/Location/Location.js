@@ -1,11 +1,11 @@
 import Image from 'next/image';
 
-import bowleroWhite from '../../images/bowlero-white-800w.png';
-import bowleroBlack from '../../images/bowlero-black-800w.png';
+import amfLogo from '../../images/amf-logo-500.webp';
 
 import classes from './Location.module.scss';
 
 const Location = () => {
+  const centerUrl = 'https://www.amf.com/location/amf-richardson-lanes';
 
   return (
     <section className={classes.Location} id={'location'}>
@@ -14,35 +14,35 @@ const Location = () => {
       </h3>
       <div className={'row mb-3 d-flex justify-content-center align-items-md-center'}>
         <div className={`col-8 col-md-4 ${classes.Logo}`}>
-          <a href={'https://www.bowlero.com/location/bowlero-garland'}
+          <a href={centerUrl}
              target={'_blank'}>
-            <Image src={bowleroBlack}
-                   alt={'Logo for Bowlero'}
-                   className={`w-100 h-auto ${classes.Light}`}
+            <Image src={amfLogo}
+                   alt={'Logo for AMF Richardson'}
+                   className={`w-100 h-auto ${classes.Image}`}
             />
-            <Image src={bowleroWhite}
-                   alt={'Logo for Bowlero'}
-                   className={`w-100 h-auto ${classes.Dark}`}
-            />
+            {/*<Image src={bowleroWhite}*/}
+            {/*       alt={'Logo for Bowlero'}*/}
+            {/*       className={`w-100 h-auto ${classes.Dark}`}*/}
+            {/*/>*/}
           </a>
         </div>
         <div className={`col-12 col-md-4 ${classes.Content}`}>
           <h4 className={``}>
-            <a href={'https://www.bowlero.com/location/bowlero-garland'}>
-              Bowlero Garland
+            <a href={centerUrl}>
+              AMF Richardson Lanes
             </a>
           </h4>
           <address>
             <span className={`d-block`}>
-              1950 Marketplace Dr
+               2101 N. Central Expressway
             </span>
             <span className={`d-block`}>
-              Garland, TX 75041
+              Richardson, TX 75080
             </span>
             <span className={`d-block`}>
               <i className={`bi-telephone-fill me-2`} aria-hidden={true}/>
-              <a href={`tel:9726138100`}>
-                972-613-8100
+              <a href={`tel:9722312695`}>
+                972-231-2695
               </a>
             </span>
           </address>
@@ -50,7 +50,7 @@ const Location = () => {
       </div>
       <div className={`ratio ratio-21x9 ${classes.Map}`}>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3351.3327766374628!2d-96.65719842322007!3d32.86291367362767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864ea72f35838bf3%3A0xdba120266f489ba2!2s1950%20Marketplace%20Dr%2C%20Garland%2C%20TX%2075041!5e0!3m2!1sen!2sus!4v1691269274481!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2867.7877573507544!2d-96.71686820883497!3d32.97820522695134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c1f2feade4afd%3A0x35206fb40b3d3e7!2sAMF%20Richardson%20Lanes!5e0!3m2!1sen!2sus!4v1716330459063!5m2!1sen!2sus"
           allowFullScreen="" loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>

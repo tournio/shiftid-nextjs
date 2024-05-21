@@ -14,11 +14,11 @@ const Page = () => {
     <div>
       <Hero/>
       <Spotlight/>
-      <Results/>
       <Location/>
       <Schedule/>
       <Area full={false}/>
       <Local/>
+      <Results/>
       <Contact/>
     </div>
   );

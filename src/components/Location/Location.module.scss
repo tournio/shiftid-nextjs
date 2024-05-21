@@ -2,15 +2,9 @@
   .Logo {
     padding: 0.75rem 0 1.5rem;
 
-    .Light {
+    .Image {
       [data-bs-theme='dark'] & {
-        display: none;
-      }
-    }
-    .Dark {
-      filter: brightness(85%);
-      [data-bs-theme='light'] & {
-        display: none;
+        filter: brightness(85%);
       }
     }
   }
