@@ -84,7 +84,7 @@ const scratchMastersRules = `
     
     Division E: Averages 0-159 &ndash; $25
     
-1.  All PBA, PWBA, or Team USA members will be classified in Division E, regardless of average.
+1.  All PBA, PWBA, or Team USA members will be classified in Division A, regardless of average.
 1.  Qualifying will be based on the bowler’s scratch scores (without handicap) bowled during the Singles, Doubles, and Team events. 
 1.  The top eight (8) entrants in each division will advance to the scratch master competition on Sunday. Please note that if a division has less than 20 entries, then only the top six (6) bowlers will qualify for scratch masters.
 1.  We will begin shortly after the lanes are re-dressed after Singles.
