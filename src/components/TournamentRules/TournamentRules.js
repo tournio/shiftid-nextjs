@@ -53,7 +53,7 @@ const registrationRules = `
 1.  Tournament expenses include other costs of running the tournament.
 1.  ONLY online registrations will be accepted, and online payment of entry fees is available by credit card.
 1.  All entry fees, including cash payments, must be paid in full by the official entry deadline and will not be refunded except at the Tournament Director’s discretion.
-1. The official deadline is June 30th @ 11:59pm.  All entries and entry fee must be paid by the deadline for your entry to be accepted.`;
+1. The official deadline is June 30th, 2024 @ 11:59pm.  All entries and entry fee must be paid by the deadline for your entry to be accepted.`;
 
 const optionalScratchRules = `
 1.  The Optional Scratch event is available to all participants for an additional entry fee of $30. Optional Scratch entry fees may be paid at the time of tournament entry or during registration as long as the fee is paid before the first ball is rolled in competition.
