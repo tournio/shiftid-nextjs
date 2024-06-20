@@ -26,11 +26,11 @@ const TournamentRules = () => {
 
   const averageRules = `
 1.  Entering Averages will be calculated in the following order:
-    1.  Bowlers with both a 2022-/2023 USBC Standard Composite Average, minimum 21 games, and current one year rolling IGBO Tournament Average Database (TAD) will enter with a composite of these two averages.
+    1.  Bowlers with both a 2023-2024 USBC Standard Composite Average, minimum 21 games, and current one year rolling IGBO Tournament Average Database (TAD) will enter with a composite of these two averages.
     1.  Bowlers without both must use:
         1.  IGBO TAD average, with a minimum of 27 games, for a current 1 year rolling period.
-        1.  2022-2023 USBC Standard Composite Average, minimum 21 games.
-        1.  2021-2022 Standard Composite Average, minimum of 21 games.
+        1.  2023-2024 USBC Standard Composite Average, minimum 21 games.
+        1.  2022-2023 Standard Composite Average, minimum of 21 games.
         1.  2023 summer league average, minimum of 21 games.
         1.  Bowlers may use a non-USBC league average, minimum of 21 games, provided the league bowls in a USBC-certified center. Bowler is responsible for providing average verification data if not present on www.bowl.com at the time of verification.
     1.  Bowlers who do not have a valid average as described under rule 1A or 1B will enter as a scratch participant and receive no handicap.
