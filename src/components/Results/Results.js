@@ -6,16 +6,16 @@ const Results = () => {
       { id: 'team', name: 'Team Event' },
       { id: 'doubles', name: 'Doubles Event' },
       { id: 'singles', name: 'Singles Event' },
-      { id: 'individual_all_events', name: 'Individual All Events' },
+      { id: 'all_events', name: 'Individual All Events' },
       { id: 'scratch_masters', name: 'Scratch Masters' },
       { id: 'optional_scratch', name: 'Optional Scratch' },
-      { id: 'best_3of9', name: 'Best 3 of 9' },
+      { id: 'best_3_of_9', name: 'Best 3 of 9' },
   ];
 
   return (
     <section className={`${styles.Results}`}>
       <h3 className={`section-heading`}>
-        2023 Tournament Results
+        2024 Tournament Results
       </h3>
 
       <div className={'row px-2 px-xl-0'}>
@@ -24,11 +24,11 @@ const Results = () => {
             <ul className={`list-group list-group-flush ${styles.ResultList}`}>
               {results.map((result, i) => (
                     <li key={i} className={`list-group-item ${styles.ResultItem} d-flex justify-content-between`}>
-                      <a href={`/results/2023/${result.id}.pdf`}
+                      <a href={`/results/2024/${result.id}.pdf`}
                          className={`${styles.ResultLink} mt-2`}>
                         {`${result.name}`}
                       </a>
-                      <a href={`/results/2023/${result.id}.pdf`}
+                      <a href={`/results/2024/${result.id}.pdf`}
                          className={`btn btn-outline-secondary`}
                          title='Download PDF'>
                         <i className="bi-download" aria-hidden={true}></i>
