@@ -71,12 +71,12 @@ const Local = () => {
                 Big D Classic
               </a>
             </li>
-            <li className={`list-group-item`}>
-              <a href={`https://www.damitbowling.org/`}
-                 target={'_blank'}>
-                Dallas Area Masters Invitational Tournament (DAMIT)
-              </a>
-            </li>
+            {/*<li className={`list-group-item`}>*/}
+            {/*  <a href={`https://www.damitbowling.org/`}*/}
+            {/*     target={'_blank'}>*/}
+            {/*    Dallas Area Masters Invitational Tournament (DAMIT)*/}
+            {/*  </a>*/}
+            {/*</li>*/}
             <li className={`list-group-item`}>
               SHIFTID (That&apos;s us!)
             </li>

@@ -9,7 +9,7 @@ const TournamentRules = () => {
   const generalRules = `
 1.  The Seniors Handicap Invitational Family Tournament In DFW (SHIFTID) is an IGBO affiliated tournament, open to anyone fifty (50) years of age and over by invitation only. SHIFTID will be a mixed handicap competition, certified by the USBC, and will be adhering to USBC rules. The tournament director reserves the right to reject any application.
 1.  All applicants are required to be USBC members pursuant to Rule 300c and must provide proof of membership (ID card or signed temporary card from league secretary). All applicants must also be a current member of IGBO, either as a member of an IGBO league or as an Associate member. Associate membership must be purchased prior to the tournament date.
-1.  Space for the tournament is limited to thirty-eight (38) teams which may be composed of any combination of people. All participants will compete on an equal basis. Partial team entries will be accepted and accommodated, space available. Participants are only allowed to enter once for each event, and doubles partners must come from the same team.
+1.  Space for the tournament is limited to thirty-six (36) teams which may be composed of any combination of people. All participants will compete on an equal basis. Partial team entries will be accepted and accommodated, space available. Participants are only allowed to enter once for each event, and doubles partners must come from the same team.
 1.  SHIFTID bowled events shall consist of Singles, Doubles, and Team, all handicapped. The number of games bowled for each event shall be three (3) games. Individual All Events will be the combined total of all nine (9) games bowled.
 1.  Tournament Director reserves the right to dismiss or disqualify any participant, at any time during the tournament. If a bowler is dismissed or disqualified, no refund will be issued.
 1.  All monetary awards for Singles, Doubles, Team, and Individual All Events are based on total pins bowled plus handicap and will be paid to the highest scores in each event on a minimum 1:10 payout ratio. All prize fees are returned at least 100%.
@@ -26,12 +26,12 @@ const TournamentRules = () => {
 
   const averageRules = `
 1.  Entering Averages will be calculated in the following order:
-    1.  Bowlers with both a 2023-2024 USBC Standard Composite Average, minimum 21 games, and current one year rolling IGBO Tournament Average Database (TAD) will enter with a composite of these two averages.
+    1.  Bowlers with both a 2024-2025 USBC Standard Composite Average, minimum 21 games, and current one year rolling IGBO Tournament Average Database (TAD) will enter with a composite of these two averages.
     1.  Bowlers without both must use:
         1.  IGBO TAD average, with a minimum of 27 games, for a current 1 year rolling period.
-        1.  2023-2024 USBC Standard Composite Average, minimum 21 games.
-        1.  2022-2023 Standard Composite Average, minimum of 21 games.
-        1.  2023 summer league average, minimum of 21 games.
+        1.  2024-2025 USBC Standard Composite Average, minimum 21 games.
+        1.  2023-2024 Standard Composite Average, minimum of 21 games.
+        1.  2024 summer league average, minimum of 21 games.
         1.  Bowlers may use a non-USBC league average, minimum of 21 games, provided the league bowls in a USBC-certified center. Bowler is responsible for providing average verification data if not present on www.bowl.com at the time of verification.
     1.  Bowlers who do not have a valid average as described under rule 1A or 1B will enter as a scratch participant and receive no handicap.
 1.  Handicap is based on 90% of the difference between the bowler's entering average and highest entering average, rounded up to nearest 5, for the tournament. If the highest verified tournament average is 226, the handicap will be calculated as 90% of the difference between each bowler’s average and 230. The highest entering average will be determined once tournament entries have closed, and all averages have been verified.
@@ -53,7 +53,7 @@ const registrationRules = `
 1.  Tournament expenses include other costs of running the tournament.
 1.  ONLY online registrations will be accepted, and online payment of entry fees is available by credit card.
 1.  All entry fees, including cash payments, must be paid in full by the official entry deadline and will not be refunded except at the Tournament Director’s discretion.
-1. The official deadline is June 30th, 2024 @ 11:59pm.  All entries and entry fee must be paid by the deadline for your entry to be accepted.`;
+1. The official deadline is June 19th, 2025 @ 11:59pm.  All entries and entry fee must be paid by the deadline for your entry to be accepted.`;
 
 const optionalScratchRules = `
 1.  The Optional Scratch event is available to all participants for an additional entry fee of $30. Optional Scratch entry fees may be paid at the time of tournament entry or during registration as long as the fee is paid before the first ball is rolled in competition.
@@ -118,7 +118,7 @@ const scratchMastersRules = `
         </div>
       </div>
 
-      {/*<p>(pending finalization for 2024)</p>*/}
+      <p>(pending finalization for 2025)</p>
 
       <h3 className={`section-heading`}>
         General Rules
