@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import stackedLogo from '../../images/shiftid-logo-stacked.webp';
+import fireworksLogo from '../../images/logo-fireworks.png';
 import {REGISTER_URL} from "@/js/misc";
 
 import classes from './Hero.module.scss';
@@ -12,14 +12,14 @@ const Hero = ({linkToFront = false}) => {
 
   return (
     <section className={`${classes.Hero}`}>
-      <h1 className={`display-1 ${classes.Title}`}>
-        {header}
-      </h1>
+      {/*<h1 className={`display-1 ${classes.Title}`}>*/}
+      {/*  {header}*/}
+      {/*</h1>*/}
 
       <div className={`row d-flex justify-content-center ${classes.Logo}`}>
-        <Image src={stackedLogo}
-               className={`col-11 col-md-6 col-lg-5 img-fluid`}
-               alt={'SHIFTID logo'}/>
+        <Image src={fireworksLogo}
+               className={`col-11 col-md-10 col-lg-8 img-fluid`}
+               alt={text}/>
       </div>
 
       <h2 className={`display-2 ${classes.Subtitle}`}>
@@ -35,13 +35,13 @@ const Hero = ({linkToFront = false}) => {
         July 4-6, 2025
       </h3>
 
-      <p className={`${classes.Link}`}>
-        <a href={REGISTER_URL}
-           className={`btn btn-primary`}
-        >
-          Register Now
-        </a>
-      </p>
+      {/*<p className={`${classes.Link}`}>*/}
+      {/*  <a href={REGISTER_URL}*/}
+      {/*     className={`btn btn-primary`}*/}
+      {/*  >*/}
+      {/*    Register Now*/}
+      {/*  </a>*/}
+      {/*</p>*/}
 
       <p className={`mx-md-4 ${classes.Link}`}>
         <Link href={`/rules`}>
