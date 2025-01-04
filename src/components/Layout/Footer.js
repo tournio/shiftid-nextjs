@@ -8,8 +8,6 @@ import lettersLogo from '../../images/shiftid-logo-just-letters.jpg';
 import classes from './Layout.module.scss';
 
 const Footer = () => {
-  // const router = useRouter();
-
   return (
     <section className={classes.Footer}>
       <Sponsors/>
@@ -25,7 +23,7 @@ const Footer = () => {
       <div className={'d-flex justify-content-center align-items-center ps-2'}>
         <p>
           <span>
-            &copy; 2023-2024&nbsp;
+            &copy; 2023-2025&nbsp;
           </span>
           <span className={'d-md-none pe-2'}>
             SHIFTID

@@ -1,14 +1,14 @@
 import Image from "next/image";
+import Link from "next/link";
 import stackedLogo from '../../images/shiftid-logo-stacked.webp';
+import {REGISTER_URL} from "@/js/misc";
 
 import classes from './Hero.module.scss';
-import Link from "next/link";
 
 const Hero = ({linkToFront = false}) => {
 
   const text = `Seniors Handicap Invitational Family Tournament in DFW`;
   const header = !linkToFront ? text : <Link href={'/'}>{text}</Link>;
-  // const REGISTER_URL = 'https://www.tourn.io/tournaments/shiftid-2024';
 
   return (
     <section className={`${classes.Hero}`}>
@@ -35,13 +35,13 @@ const Hero = ({linkToFront = false}) => {
         July 4-6, 2025
       </h3>
 
-      {/*<p className={`${classes.Link}`}>*/}
-      {/*  <a href={REGISTER_URL}*/}
-      {/*     className={`btn btn-primary`}*/}
-      {/*  >*/}
-      {/*    Register Now*/}
-      {/*  </a>*/}
-      {/*</p>*/}
+      <p className={`${classes.Link}`}>
+        <a href={REGISTER_URL}
+           className={`btn btn-primary`}
+        >
+          Register Now
+        </a>
+      </p>
 
       <p className={`mx-md-4 ${classes.Link}`}>
         <Link href={`/rules`}>
