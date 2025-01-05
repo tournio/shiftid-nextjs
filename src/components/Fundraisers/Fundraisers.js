@@ -73,6 +73,12 @@ const Fundraisers = () => (
     </h5>
     <ul className={`${classes.Rules}`}>
       <li>
+        Registration opens at noon.
+      </li>
+      <li>
+        Bowling begins at 1:00PM.
+      </li>
+      <li>
           <span className={'fw-bold'}>
             Entry Fee:
           </span>
