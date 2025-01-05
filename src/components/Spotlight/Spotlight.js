@@ -6,13 +6,27 @@ const Spotlight = () => {
   const comingSoon = (
     <div>
       <p>
-        What&apos;s that sound? Why, it&apos;s the sound of SHIFTID 2025 coming together!
-      </p>
-      <p>
-        Keep your eyes on this spot for updates, as we plan to open registration on April 4.
+        What&apos;s that sound? Why, it&apos;s the sound of SHIFTID 2025 coming together! Keep your eyes on this spot for updates, as we plan to open registration on April 4.
       </p>
     </div>
   );
+
+  const fundraiser = (
+    <div>
+      <p>
+        In the meantime, join us February 1 and March 1 for{' '}
+        <Link href={'/fundraisers'}>
+          our next fundraisers
+        </Link>
+        !
+      </p>
+      <p>
+        <Link href={'/fundraisers'}>
+          Details
+        </Link>
+      </p>
+    </div>
+  )
 
   // const prelimText = <p>
   //   SHIFTID is the newest member of the IGBO tournament community, showcasing the best of what the Dallas/Fort Worth area has to offer its LGBTQ+ citizens and visitors. Come bowl with us this July!
@@ -58,6 +72,7 @@ const Spotlight = () => {
     <section className={`${classes.Spotlight}`}>
       <div className={``}>
         {comingSoon}
+        {fundraiser}
         {/*{prelimText}*/}
         {/*{registrationOpen}*/}
         {/*{allDone}*/}

@@ -49,6 +49,15 @@ const Local = () => {
                 Metroplex Bowling Association
               </a>
             </li>
+            <li className={`list-group-item`}>
+              <a href={'https://itsjustbowling.com/Leagues/Mo-Vick/'}
+                 target={'_blank'}>
+                Mo-Vick Matchpoint
+              </a>
+              <p className={'small'}>
+                (non-IGBO)
+              </p>
+            </li>
           </div>
         </div>
 

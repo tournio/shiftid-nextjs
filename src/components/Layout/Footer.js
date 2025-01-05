@@ -3,7 +3,7 @@ import Image from 'next/image';
 import ColorModeToggler from "../ColorModeToggler/ColorModeToggler";
 import Sponsors from "@/components/Sponsors/Sponsors";
 
-import lettersLogo from '../../images/shiftid-logo-just-letters.jpg';
+import fireworksLogo from '../../images/logo-fireworks.png';
 
 import classes from './Layout.module.scss';
 
@@ -14,8 +14,8 @@ const Footer = () => {
       <hr />
       <div className={`row d-flex justify-content-center`}>
         <div className={`col-12 col-md-8`}>
-          <Image src={lettersLogo}
-                 alt={'SHIFTID logo'}
+          <Image src={fireworksLogo}
+                 alt={'Seniors Handicap Invitational Family Tournament in DFW'}
                  className={`img-fluid ${classes.Image}`}
           />
         </div>
