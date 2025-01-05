@@ -3,21 +3,19 @@ import Image from 'next/image';
 import ColorModeToggler from "../ColorModeToggler/ColorModeToggler";
 import Sponsors from "@/components/Sponsors/Sponsors";
 
-import lettersLogo from '../../images/shiftid-logo-just-letters.jpg';
+import fireworksLogo from '../../images/logo-fireworks.png';
 
 import classes from './Layout.module.scss';
 
 const Footer = () => {
-  // const router = useRouter();
-
   return (
     <section className={classes.Footer}>
       <Sponsors/>
       <hr />
       <div className={`row d-flex justify-content-center`}>
         <div className={`col-12 col-md-8`}>
-          <Image src={lettersLogo}
-                 alt={'SHIFTID logo'}
+          <Image src={fireworksLogo}
+                 alt={'Seniors Handicap Invitational Family Tournament in DFW'}
                  className={`img-fluid ${classes.Image}`}
           />
         </div>
@@ -25,7 +23,7 @@ const Footer = () => {
       <div className={'d-flex justify-content-center align-items-center ps-2'}>
         <p>
           <span>
-            &copy; 2023-2024&nbsp;
+            &copy; 2023-2025&nbsp;
           </span>
           <span className={'d-md-none pe-2'}>
             SHIFTID

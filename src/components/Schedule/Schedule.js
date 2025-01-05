@@ -16,7 +16,7 @@ const Schedule = () => {
           name: '9-pin No-Tap Mixer',
           detail: '',
           more: 'Open to all, including non-tournament bowlers',
-          time: '8pm - 9pm',
+          time: '8pm - 10pm',
         },
       ]
     },
@@ -27,19 +27,13 @@ const Schedule = () => {
           name: 'Tournament Check-in',
           detail: 'Bowling center meeting room',
           more: '',
-          time: '8am - 9am',
+          time: '8:30am - 9:45am',
         },
         {
-          name: 'Doubles Event',
-          detail: '',
+          name: 'Doubles and Team Events',
+          detail: `We'll have a 30-40 minute break in between events`,
           more: '',
-          time: '9:00am - 11:30am',
-        },
-        {
-          name: 'Team Event',
-          detail: '',
-          more: '',
-          time: '12:30pm - 3:00pm',
+          time: '10:00am - 4:00pm',
         },
       ]
     },
@@ -50,13 +44,13 @@ const Schedule = () => {
           name: 'Singles Event',
           detail: '',
           more: '',
-          time: '9:00am - 11:30am',
+          time: '10:00am - 12:30pm',
         },
         {
           name: 'Scratch Masters',
           detail: '',
           more: '',
-          time: '12:30pm - 4:00pm',
+          time: '1:00pm - 4:00pm',
         },
       ]
     },

@@ -1,5 +1,5 @@
 import ReactMarkdown from "react-markdown";
-import lettersLogo from '../../images/shiftid-logo-just-letters.jpg';
+import fireworksLogo from '../../images/logo-fireworks.png';
 
 import classes from './TournamentRules.module.scss';
 import Image from "next/image";
@@ -110,8 +110,8 @@ const scratchMastersRules = `
           <Link href={'/'}
                 title={'Back to main page'}
                 className={``}>
-            <Image src={lettersLogo}
-                   alt={'SHIFTID logo'}
+            <Image src={fireworksLogo}
+                   alt={'Seniors Handicap Invitational Family Tournament in DFW'}
                    className={`img-fluid ${classes.Image}`}
             />
           </Link>
