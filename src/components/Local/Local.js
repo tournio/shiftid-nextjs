@@ -54,9 +54,6 @@ const Local = () => {
                  target={'_blank'}>
                 Mo-Vick Matchpoint
               </a>
-              <p className={'small'}>
-                (non-IGBO)
-              </p>
             </li>
           </div>
         </div>
