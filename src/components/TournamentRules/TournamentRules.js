@@ -13,12 +13,12 @@ const TournamentRules = () => {
 1.  SHIFTID bowled events shall consist of Singles, Doubles, and Team, all handicapped. The number of games bowled for each event shall be three (3) games. Individual All Events will be the combined total of all nine (9) games bowled.
 1.  Tournament Director reserves the right to dismiss or disqualify any participant, at any time during the tournament. If a bowler is dismissed or disqualified, no refund will be issued.
 1.  All monetary awards for Singles, Doubles, Team, and Individual All Events are based on total pins bowled plus handicap and will be paid to the highest scores in each event on a minimum 1:10 payout ratio. All prize fees are returned at least 100%.
-1.  Check-in begins sixty (60) minutes prior to each event. All team members must be present at the time of bowling. Late bowlers will bowl when ready and receive a score of zero (0) for each frame missed.
+1.  Check-in is required prior to start of bowling. See Tournament Check-in times. Late bowlers will bowl when ready and receive a score of zero (0) for each frame missed.
 1.  Substitutes are permitted, provided they meet membership and average requirements.
 1.  Bowlers shall have ten (10) minutes of practice on their assigned lanes prior to each event.
 1.  The time limit for correction or protest of scores is twenty-four (24) hours. All protests must be in writing and submitted to the tournament director(s) before tournament prize payments are distributed. The protesting bowler and the Tournament Director will settle any disputes in accordance with the rules of SHIFTID and the appropriate USBC tournament rules, as applicable. The tournament director's decision is final unless an appeal is made in accordance with USBC Rule 329.
-1.  Prizes will be distributed via check, payable in USD, within thirty (30) days of the completion of the tournament, barring any protests. A tie in any position will result in the prize monies being aggregated for the tied positions and divided equally by the number of ties for that placement.
 1.  Entrants do hereby give consent to being photographed and/or videoed during the tournament.
+1.  Prizes will be distributed via check, Zelle, CashApp, or Venmo, payable in USD, within thirty (30) days of the completion of the tournament, barring any protests. A tie in any position will result in the prize monies being aggregated for the tied positions and divided equally by the number of ties for that placement.
 1.  Any rule not covered herein, or in below section, will be covered by the relevant USBC tournament rule(s).
 1.  Submission of an entry to SHIFTID indicates the bowler has read, understands, and agrees to the rules set forth herein. Once tournament entries are received, no refunds are allowed unless the bowler withdraws under the provisions of Average Rule 3.
 1.  Bowling balls must be USBC approved and drilled, meeting all USBC requirements. Balls must have also been released and available to the public for purchase by the start of SHIFTID. Pre-release and test bowling equipment is not allowed.`;
@@ -35,25 +35,25 @@ const TournamentRules = () => {
         1.  Bowlers may use a non-USBC league average, minimum of 21 games, provided the league bowls in a USBC-certified center. Bowler is responsible for providing average verification data if not present on www.bowl.com at the time of verification.
     1.  Bowlers who do not have a valid average as described under rule 1A or 1B will enter as a scratch participant and receive no handicap.
 1.  Handicap is based on 90% of the difference between the bowler's entering average and highest entering average, rounded up to nearest 5, for the tournament. If the highest verified tournament average is 226, the handicap will be calculated as 90% of the difference between each bowler’s average and 230. The highest entering average will be determined once tournament entries have closed, and all averages have been verified.
-1.  Tournament leadership has the authority to adjust the entering average or continued participation of any bowler. Average adjustments will be applied as set forth under USBC rules. A bowler unwilling to accept an average adjustment is entitled to a full refund. Requests for refunds must be in writing before the start of the tournament.
-1.  USBC rules regarding the bowlers' responsibility to verify the accuracy of his/her entering average, whether submitted by the bowler, the team captain, or other, apply. Failure to use proper average shall disqualify scores if the submitted average is lower than the actual average, thereby resulting in a lower classification or more handicap. Final event standings shall be based on the higher average if it is higher than the entering average.
+1.  Tournament Director has the authority to adjust the entering average or continued participation of any bowler. Average adjustments will be applied as set forth under USBC rules. A bowler unwilling to accept an average adjustment is entitled to a full refund. Requests for refunds must be in writing before the start of the tournament.
+1.  USBC rules regarding the bowler&apos;s responsibility to verify the accuracy of his/her entering average, whether submitted by the bowler, the team captain, or other, apply. Failure to use proper average shall disqualify scores if the submitted average is lower than the actual average, thereby resulting in a lower classification or more handicap. Final event standings shall be based on the higher average if it is higher than the entering average.
 1.  USBC rule 319a(2) will not be waived.
 1.  Averages will be verified based on league data available from USBC at www.bowl.com.`;
 
 const registrationRules = `
-1.  The tournament entry fee is $120 per bowler. That fee is broken down as follows:
+1.  The tournament entry fee is $120 per bowler:
 
     Prize Fund: $70
     
-    Lineage: $36
+    Lineage: $40.50
     
-    Tournament Expenses: $14
+    Tournament Expenses: $9.50
 
 1.  The Prize Fund will be returned 100%.
 1.  Tournament expenses include other costs of running the tournament.
 1.  ONLY online registrations will be accepted, and online payment of entry fees is available by credit card.
-1.  All entry fees, including cash payments, must be paid in full by the official entry deadline and will not be refunded except at the Tournament Director’s discretion.
-1. The official deadline is June 19th, 2025 @ 11:59pm.  All entries and entry fee must be paid by the deadline for your entry to be accepted.`;
+1.  All entry fees, including cash payments, must be paid in full by the official entry deadline and will not be refunded except at the Tournament Director&apos;s discretion.
+1. The official deadline is June 19th, 2025 @ 11:59pm.  All entries and entry fee must be paid by the deadline for an entry to be accepted.`;
 
 const optionalScratchRules = `
 1.  The Optional Scratch event is available to all participants for an additional entry fee of $30. Optional Scratch entry fees may be paid at the time of tournament entry or during registration as long as the fee is paid before the first ball is rolled in competition.
@@ -72,7 +72,7 @@ const optionalScratchRules = `
 1.  Prizes will be awarded in each division for the high scratch game, series, and all-events bowled by participants who have paid the Optional Scratch entry fee. The award ratio for the Optional Scratch will be at least 1:10 per division with 100% of monies collected paid to winners for each division. Ties for any event will be aggregated for the tied positions and divided equally by the number of ties for that placement.`;
 
 const scratchMastersRules = `  
-1.  Scratch Masters is an optional event available to all participants for an additional entry fee based on the participant’s average division.
+1.  Scratch Masters is an optional event available to all participants for an additional entry fee based on the participant&apos;s average division.
 1.  Divisions and Entry fees for this optional event is based on average divisions as follows:
 
     Division A: Averages 205-300 &ndash; $55
@@ -86,8 +86,8 @@ const scratchMastersRules = `
     Division E: Averages 0-159 &ndash; $25
     
 1.  All PBA, PWBA, or Team USA members will be classified in Division A, regardless of average.
-1.  Qualifying will be based on the bowler’s scratch scores (without handicap) bowled during the Singles, Doubles, and Team events. 
-1.  The top eight (8) entrants in each division will advance to the scratch master competition on Sunday. Please note that if a division has less than 20 entries, then only the top six (6) bowlers will qualify for scratch masters.
+1.  Qualifying will be based on the bowler&apos;s scratch scores (without handicap) bowled during the Singles, Doubles, and Team events. 
+1.  The top eight (8) entrants in each division will advance to the scratch master competition on Sunday. Please note that if a division has fewer than 16 entries, then only the top six (6) bowlers will qualify for scratch masters.
 1.  We will begin shortly after the lanes are re-dressed after Singles.
 1.  Qualifiers must be present for a meeting at 1:30pm, or other announced time, on Sunday. The meeting will cover the rules and lane assignments. Anyone not present for the meeting will lose their spot, and the next highest scoring available entrant from the division will bowl.
 1.  In the event of a tie for the final qualifying spot, the spot will be awarded to whichever of the bowlers involved in the tie that had the highest three game series. If a tie still exists, the next tiebreaker is the second highest series. If the tie remains, the bowlers involved will bowl a one game roll-off to determine which bowler moves on to the competition.
@@ -118,7 +118,7 @@ const scratchMastersRules = `
         </div>
       </div>
 
-      <p>(pending finalization for 2025)</p>
+      {/*<p>(pending finalization for 2025)</p>*/}
 
       <h3 className={`section-heading`}>
         General Rules
