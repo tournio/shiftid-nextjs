@@ -1,28 +1,47 @@
 import Link from "next/link";
 import classes from './Spotlight.module.scss';
 import {REGISTER_URL} from "@/js/misc";
+import fundraiser_jpg from "../../images/fundraiser.jpg";
+import Image from "next/image";
 
 const Spotlight = () => {
-  const comingSoon = (
+  const registrationOpen = (
     <div>
       <p>
-        What&apos;s that sound? Why, it&apos;s the sound of SHIFTID 2025 coming together! Keep your eyes on this spot for updates, as we plan to open registration on April 4.
+        Now is the time, tournament registration is open!
+      </p>
+      <p>
+        <Link href={REGISTER_URL}
+              className={'btn btn-primary'}>
+          Register
+        </Link>
       </p>
     </div>
-  );
+  )
+  // const comingSoon = (
+  //   <div>
+  //     <p>
+  //       What&apos;s that sound? Why, it&apos;s the sound of SHIFTID 2025 coming together! Keep your eyes on this spot for updates, as we plan to open registration on April 4.
+  //     </p>
+  //   </div>
+  // );
 
   const fundraiser = (
     <div>
+      <hr />
+      {/*<p>*/}
+      {/*  In the meantime, {' '}*/}
+      {/*  <Link href={'/fundraisers'}>*/}
+      {/*    our next fundraiser*/}
+      {/*  </Link>*/}
+      {/*  {' '}is May 24 at Cityview Lanes in Fort Worth.*/}
+      {/*</p>*/}
       <p>
-        In the meantime, join us February 1 and March 1 for{' '}
-        <Link href={'/fundraisers'}>
-          our next fundraisers
-        </Link>
-        !
-      </p>
-      <p>
-        <Link href={'/fundraisers'}>
-          Details
+        <Link href={'/fundraisers'}
+              title={'Click for full details and rules'}>
+          <Image src={fundraiser_jpg}
+                 alt={'Fundraiser flyer with some event details'}
+                 className={'img-fluid'}/>
         </Link>
       </p>
     </div>
@@ -31,21 +50,6 @@ const Spotlight = () => {
   // const prelimText = <p>
   //   SHIFTID is the newest member of the IGBO tournament community, showcasing the best of what the Dallas/Fort Worth area has to offer its LGBTQ+ citizens and visitors. Come bowl with us this July!
   // </p>
-
-  // const registrationOpen = (
-  //   <>
-  //     <p>
-  //       Registration is open!
-  //     </p>
-  //     <p>
-  //       <a href={REGISTER_URL}
-  //          className={`btn btn-primary`}
-  //       >
-  //         Register Now
-  //       </a>
-  //     </p>
-  //   </>
-  // );
 
   // const allDone = (
   //   <div>
@@ -71,10 +75,10 @@ const Spotlight = () => {
   return (
     <section className={`${classes.Spotlight}`}>
       <div className={``}>
-        {comingSoon}
-        {fundraiser}
+        {/*{comingSoon}*/}
         {/*{prelimText}*/}
-        {/*{registrationOpen}*/}
+        {registrationOpen}
+        {fundraiser}
         {/*{allDone}*/}
         {/*{results}*/}
 

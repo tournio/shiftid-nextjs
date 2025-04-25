@@ -5,7 +5,8 @@
 
   @media (min-width: 768px) {
     font-size: calc(1rem + 0.5vw);
-    margin-bottom: 6rem;
+    //margin-bottom: 6rem;
+    // No need when Spotlight is large
   }
 
   .Links {
