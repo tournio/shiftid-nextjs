@@ -20,13 +20,13 @@ const Fundraisers = () => (
     </div>
 
     <h2 className={'my-3'}>
-      SHIFTID Saturday 9-Pin Fundraisers
+      SHIFTID Saturday 9-Pin Fundraiser
     </h2>
 
     <div className={`row justify-content-around`}>
       <div className={`col-12 col-md-6 col-lg-5 ${classes.Occurrence}`}>
         <h3>
-          February 1
+          May 24
         </h3>
         <h4>
           @ Cityview in Fort Worth
@@ -43,25 +43,25 @@ const Fundraisers = () => (
           Fort Worth, TX 76132
         </address>
       </div>
-      <div className={`col-12 col-md-6 col-lg-5 ${classes.Occurrence}`}>
-        <h3>
-          March 1
-        </h3>
-        <h4>
-          @ AMF Richardson Lanes
-        </h4>
-        <div className={`ratio ratio-4x3 ${classes.Map}`}>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6693.9212005020945!2d-96.71892952321176!3d32.97844127358005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c1f2feade4afd%3A0x35206fb40b3d3e7!2sAMF%20Richardson%20Lanes!5e0!3m2!1sen!2sus!4v1736104986056!5m2!1sen!2sus"
-            allowFullScreen="" loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <address>
-          2101 N Central Expressway
-          <br />
-          Richardson, TX 75080
-        </address>
-      </div>
+      {/*<div className={`col-12 col-md-6 col-lg-5 ${classes.Occurrence}`}>*/}
+      {/*  <h3>*/}
+      {/*    March 1*/}
+      {/*  </h3>*/}
+      {/*  <h4>*/}
+      {/*    @ AMF Richardson Lanes*/}
+      {/*  </h4>*/}
+      {/*  <div className={`ratio ratio-4x3 ${classes.Map}`}>*/}
+      {/*    <iframe*/}
+      {/*      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6693.9212005020945!2d-96.71892952321176!3d32.97844127358005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c1f2feade4afd%3A0x35206fb40b3d3e7!2sAMF%20Richardson%20Lanes!5e0!3m2!1sen!2sus!4v1736104986056!5m2!1sen!2sus"*/}
+      {/*      allowFullScreen="" loading="lazy"*/}
+      {/*      referrerPolicy="no-referrer-when-downgrade"></iframe>*/}
+      {/*  </div>*/}
+      {/*  <address>*/}
+      {/*    2101 N Central Expressway*/}
+      {/*    <br />*/}
+      {/*    Richardson, TX 75080*/}
+      {/*  </address>*/}
+      {/*</div>*/}
     </div>
 
     <h3 className={`my-3`}>
