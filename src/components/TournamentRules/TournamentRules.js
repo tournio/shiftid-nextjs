@@ -12,7 +12,7 @@ const TournamentRules = () => {
 1.  Space for the tournament is limited to thirty-six (36) teams which may be composed of any combination of people. All participants will compete on an equal basis. Partial team entries will be accepted and accommodated, space available. Participants are only allowed to enter once for each event, and doubles partners must come from the same team.
 1.  SHIFTID bowled events shall consist of Singles, Doubles, and Team, all handicapped. The number of games bowled for each event shall be three (3) games. Individual All Events will be the combined total of all nine (9) games bowled.
 1.  Tournament Director reserves the right to dismiss or disqualify any participant, at any time during the tournament. If a bowler is dismissed or disqualified, no refund will be issued.
-1.  All monetary awards for Singles, Doubles, Team, and Individual All Events are based on total pins bowled plus handicap and will be paid to the highest scores in each event on a minimum 1:10 payout ratio. All prize fees are returned at least 100%.
+1.  All monetary awards for Singles, Doubles, and Team are based on total pins bowled plus handicap and will be paid to the highest scores in each event on a minimum 1:10 payout ratio. All prize fees are returned at least 100%.
 1.  Check-in is required prior to start of bowling. See Tournament Check-in times. Late bowlers will bowl when ready and receive a score of zero (0) for each frame missed.
 1.  Substitutes are permitted, provided they meet membership and average requirements.
 1.  Bowlers shall have ten (10) minutes of practice on their assigned lanes prior to each event.
