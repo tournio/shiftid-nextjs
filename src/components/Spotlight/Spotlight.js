@@ -8,12 +8,12 @@ const Spotlight = () => {
   const registrationOpen = (
     <div>
       <p>
-        Now is the time, tournament registration is open!
+        Hurry, registration closes June 28th at midnight!
       </p>
       <p>
         <Link href={REGISTER_URL}
               className={'btn btn-primary'}>
-          Register
+          Register Online
         </Link>
       </p>
     </div>
@@ -26,26 +26,26 @@ const Spotlight = () => {
   //   </div>
   // );
 
-  const fundraiser = (
-    <div>
-      <hr />
-      {/*<p>*/}
-      {/*  In the meantime, {' '}*/}
-      {/*  <Link href={'/fundraisers'}>*/}
-      {/*    our next fundraiser*/}
-      {/*  </Link>*/}
-      {/*  {' '}is May 24 at Cityview Lanes in Fort Worth.*/}
-      {/*</p>*/}
-      <p>
-        <Link href={'/fundraisers'}
-              title={'Click for full details and rules'}>
-          <Image src={fundraiser_jpg}
-                 alt={'Fundraiser flyer with some event details'}
-                 className={'img-fluid'}/>
-        </Link>
-      </p>
-    </div>
-  )
+  // const fundraiser = (
+  //   <div>
+  //     <hr />
+  //     {/*<p>*/}
+  //     {/*  In the meantime, {' '}*/}
+  //     {/*  <Link href={'/fundraisers'}>*/}
+  //     {/*    our next fundraiser*/}
+  //     {/*  </Link>*/}
+  //     {/*  {' '}is May 24 at Cityview Lanes in Fort Worth.*/}
+  //     {/*</p>*/}
+  //     <p>
+  //       <Link href={'/fundraisers'}
+  //             title={'Click for full details and rules'}>
+  //         <Image src={fundraiser_jpg}
+  //                alt={'Fundraiser flyer with some event details'}
+  //                className={'img-fluid'}/>
+  //       </Link>
+  //     </p>
+  //   </div>
+  // )
 
   // const prelimText = <p>
   //   SHIFTID is the newest member of the IGBO tournament community, showcasing the best of what the Dallas/Fort Worth area has to offer its LGBTQ+ citizens and visitors. Come bowl with us this July!
@@ -78,7 +78,7 @@ const Spotlight = () => {
         {/*{comingSoon}*/}
         {/*{prelimText}*/}
         {registrationOpen}
-        {fundraiser}
+        {/*{fundraiser}*/}
         {/*{allDone}*/}
         {/*{results}*/}
 
