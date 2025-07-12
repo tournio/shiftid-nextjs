@@ -26,7 +26,7 @@ const Hero = () => {
       </h2>
 
       <h3 className={`display-3 ${classes.Dates}`}>
-        July 4-6, 2025
+        July 3-5, 2026
       </h3>
 
       {/*<p className={`${classes.Link}`}>*/}
