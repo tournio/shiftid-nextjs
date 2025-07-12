@@ -5,19 +5,19 @@ import fundraiser_jpg from "../../images/fundraiser.jpg";
 import Image from "next/image";
 
 const Spotlight = () => {
-  const registrationOpen = (
-    <div>
-      <p>
-        Hurry, registration closes June 28th at midnight!
-      </p>
-      <p>
-        <Link href={REGISTER_URL}
-              className={'btn btn-primary'}>
-          Register Online
-        </Link>
-      </p>
-    </div>
-  )
+  // const registrationOpen = (
+  //   <div>
+  //     <p>
+  //       Hurry, registration closes June 28th at midnight!
+  //     </p>
+  //     <p>
+  //       <Link href={REGISTER_URL}
+  //             className={'btn btn-primary'}>
+  //         Register Online
+  //       </Link>
+  //     </p>
+  //   </div>
+  // )
   // const comingSoon = (
   //   <div>
   //     <p>
@@ -51,19 +51,18 @@ const Spotlight = () => {
   //   SHIFTID is the newest member of the IGBO tournament community, showcasing the best of what the Dallas/Fort Worth area has to offer its LGBTQ+ citizens and visitors. Come bowl with us this July!
   // </p>
 
-  // const allDone = (
-  //   <div>
-  //     <p>
-  //       That&apos;s all, folks! The sophomore outing of SHIFTID is officially in the books. We are immensely thankful for all our
-  //       bowlers, sponsors, and everyone who helped make it a reality. See you next year!
-  //     </p>
-  //
-  //     <p>
-  //       Check out the results below.
-  //       <i className={`bi bi-arrow-down ps-2`} aria-hidden={true}></i>
-  //     </p>
-  //   </div>
-  // );
+  const allDone = (
+    <div>
+      <p>
+        Save the date for next year! Registration will open April 4, 2026.
+      </p>
+
+      <p>
+        Check out the 2025 tournament results below.
+        <i className={`bi bi-arrow-down ps-2`} aria-hidden={true}></i>
+      </p>
+    </div>
+  );
 
   // const results = <p className={classes.Links}>
   //   <Link href={'/results'}
@@ -77,9 +76,9 @@ const Spotlight = () => {
       <div className={``}>
         {/*{comingSoon}*/}
         {/*{prelimText}*/}
-        {registrationOpen}
+        {/*{registrationOpen}*/}
         {/*{fundraiser}*/}
-        {/*{allDone}*/}
+        {allDone}
         {/*{results}*/}
 
         {/*<p>*/}
