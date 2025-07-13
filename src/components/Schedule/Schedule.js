@@ -13,10 +13,16 @@ const Schedule = () => {
           time: '6pm - 8pm',
         },
         {
-          name: '9-pin No-Tap Mixer',
+          name: 'No-Tap Mixer Signup',
           detail: '',
-          more: 'Open to all, including non-tournament bowlers',
-          time: '8pm - 10pm',
+          more: 'Open to bowlers of all ages, including non-tournament bowlers',
+          time: '6:00pm - 7:45pm',
+        },
+        {
+          name: '9-pin No-Tap Mixer',
+          detail: 'Bowling Center',
+          more: '',
+          time: '8:15pm - 10pm',
         },
       ]
     },
@@ -30,10 +36,23 @@ const Schedule = () => {
           time: '8:30am - 9:45am',
         },
         {
-          name: 'Doubles and Team Events',
-          detail: `We'll have a 30-40 minute break in between events`,
+          name: 'Announcements',
+          detail: '',
           more: '',
-          time: '10:00am - 4:00pm',
+          time: '10:00am - 10:15am',
+        },
+        {
+          name: 'Doubles Event',
+          detail: ``,
+          more: '',
+          time: '10:15am - 12:45pm',
+        },
+        {
+          name: 'Team Event',
+          detail: ``,
+          more: '',
+          time: '1:45pm - 4:15pm',
+          noted: true,
         },
       ]
     },
@@ -41,16 +60,29 @@ const Schedule = () => {
       date: 'Sunday, July 5',
       events: [
         {
+          name: 'Doubles and Team Results/Awards + Cash and Free Entry Drawings',
+          detail: '',
+          more: '',
+          time: '9:30am - 10:00am',
+        },
+        {
           name: 'Singles Event',
           detail: '',
           more: '',
           time: '10:00am - 12:30pm',
         },
         {
-          name: 'Scratch Masters',
+          name: 'Singles Results/Awards + Cash and Free Entry Drawings',
           detail: '',
           more: '',
-          time: '1:00pm - 4:00pm',
+          time: '1:30pm - 1:45pm',
+          noted: true,
+        },
+        {
+          name: 'Scratch Masters Check-in',
+          detail: 'Competition will begin immediately following check-in completion',
+          time: '1:45pm - 4:30pm',
+          noted: true,
         },
       ]
     },
@@ -82,6 +114,7 @@ const Schedule = () => {
                   <div className={`${classes.Detail}`}>
                     <h5>
                       {e.name}
+                      {e.noted && <sup className={'ps-1'}>*</sup>}
                     </h5>
                     {e.detail && (
                       <p>
@@ -103,6 +136,14 @@ const Schedule = () => {
 
         </div>
       ))}
+
+      <div className={'my-3'}>
+        <span className={'fw-bold pe-1'}>
+          <sup className={'pe-1'}>*</sup>
+          Note:
+        </span>
+        Start time may vary, but will be announced if so.
+      </div>
 
       <div className={`section-image-background ${classes.BackgroundImage}`}></div>
       <div className={`section-background-shade ${classes.BackgroundShade}`}></div>
