@@ -8,8 +8,10 @@ const Results = () => {
       { id: 'singles', name: 'Singles Event' },
       { id: 'all_events', name: 'Individual All Events' },
       { id: 'scratch_masters', name: 'Scratch Masters' },
-      // { id: 'optional_scratch', name: 'Optional Scratch' },
-      // { id: 'best_3_of_9', name: 'Best 3 of 9' },
+      { id: 'optional_scratch', name: 'Optional Scratch' },
+      { id: 'best_3_of_9', name: 'Best 3 of 9' },
+      { id: 'payout_1', name: 'Payout 1'},
+      { id: 'payout_2', name: 'Payout 2'},
   ];
 
   return (
